@@ -127,8 +127,34 @@ section {
 }
 
 .grid li {
-	display:inline-block;
-	margin-right:$padding * 0.5;
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+	width:20%;
+	background:#1a1a1a;
+	box-sizing:border-box;
+	border:1px solid #fff;
+	position:relative;
+
+  .image:before{content:"";display:block;margin-top:100%;}
+  .img {
+    background-size: cover;
+    background-position: center center;
+    -webkit-transition:500ms -webkit-filter;
+    -webkit-filter: saturate(10%) brightness(30%);
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+  }
+  &:hover {
+//  	border:1px solid #fff;
+    .img {
+      -webkit-filter: saturate(100%) brightness(100%);
+    }
+  }
 }
 
 
@@ -136,3 +162,4 @@ section {
 @import "pages/home";
 @import "pages/we";
 @import "pages/make";
+@import "pages/awesome";

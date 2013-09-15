@@ -1156,8 +1156,37 @@ section {
 
 /* line 129, ../../sass/style.scss */
 .grid li {
-  display: inline-block;
-  margin-right: 10px;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background: #1a1a1a;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  position: relative;
+}
+/* line 140, ../../sass/style.scss */
+.grid li .image:before {
+  content: "";
+  display: block;
+  margin-top: 100%;
+}
+/* line 141, ../../sass/style.scss */
+.grid li .img {
+  background-size: cover;
+  background-position: center center;
+  -webkit-transition: 500ms -webkit-filter;
+  -webkit-filter: saturate(10%) brightness(30%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* line 154, ../../sass/style.scss */
+.grid li:hover .img {
+  -webkit-filter: saturate(100%) brightness(100%);
 }
 
 /* line 1, ../../sass/pages/_home.scss */
@@ -1268,17 +1297,6 @@ li.case-study:nth-child(n+8) {
   font-size: 0.7em;
 }
 /* line 23, ../../sass/pages/_make.scss */
-li.case-study .img {
-  background-size: cover;
-  background-position: center center;
-}
-/* line 28, ../../sass/pages/_make.scss */
-li.case-study .image:before {
-  content: "";
-  display: block;
-  margin-top: 100%;
-}
-/* line 32, ../../sass/pages/_make.scss */
 li.case-study .info {
   pointer-events: none;
   position: absolute;
@@ -1295,25 +1313,7 @@ li.case-study .info {
   background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);
   background-image: linear-gradient(bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);
 }
-/* line 45, ../../sass/pages/_make.scss */
-li.case-study .img {
-  -webkit-transition: 500ms -webkit-filter;
-  -webkit-filter: saturate(10%) brightness(30%);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-/* line 54, ../../sass/pages/_make.scss */
-li.case-study:hover {
-  border: 1px solid #fff;
-}
-/* line 56, ../../sass/pages/_make.scss */
-li.case-study:hover .img {
-  -webkit-filter: saturate(100%) brightness(100%);
-}
-/* line 59, ../../sass/pages/_make.scss */
+/* line 38, ../../sass/pages/_make.scss */
 li.case-study:hover .info {
   background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #000000), color-stop(60%, rgba(0, 0, 0, 0.85)), color-stop(80%, rgba(0, 0, 0, 0.6)), color-stop(100%, rgba(0, 0, 0, 0)));
   background-image: -webkit-linear-gradient(bottom, #000000 0%, rgba(0, 0, 0, 0.85) 60%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0) 100%);
@@ -1321,8 +1321,22 @@ li.case-study:hover .info {
   background-image: -o-linear-gradient(bottom, #000000 0%, rgba(0, 0, 0, 0.85) 60%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0) 100%);
   background-image: linear-gradient(bottom, #000000 0%, rgba(0, 0, 0, 0.85) 60%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0) 100%);
 }
-/* line 65, ../../sass/pages/_make.scss */
+/* line 43, ../../sass/pages/_make.scss */
 li.case-study .title, li.case-study .subtitle {
   padding: 0;
   margin: 0;
+}
+
+/* line 2, ../../sass/pages/_awesome.scss */
+.principles li {
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  box-sizing: border-box;
+  padding-right: 3%;
+  vertical-align: top;
+}
+/* line 9, ../../sass/pages/_awesome.scss */
+.principles li img {
+  width: 100%;
 }

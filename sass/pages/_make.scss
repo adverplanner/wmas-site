@@ -20,15 +20,6 @@ li.case-study {
     width:20%;
     font-size:0.7em;
   }
-  .img {
-    background-size: cover;
-    background-position: center center;
-  }
-  .image {
-    &:before{content:"";display:block;margin-top:100%;}
-
-
-  }
   .info {
     pointer-events:none;
     position:absolute;
@@ -42,23 +33,10 @@ li.case-study {
     //@include filter-gradient(#000000, #333333, vertical); // IE6-9
     @include background-image(linear-gradient(bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 60%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%));
   }
-  .img {
-    -webkit-transition:500ms -webkit-filter;
-    -webkit-filter: saturate(10%) brightness(30%);
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-  }
+
   &:hover {
-    border:1px solid #fff;
-    .img {
-      -webkit-filter: saturate(100%) brightness(100%);
-    }
     .info {
       @include background-image(linear-gradient(bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.85) 60%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0) 100%));
-
     }
   }
 
