@@ -5,6 +5,14 @@ def compile_haml(infile)
   puts "Compile #{infile} => #{outfile}..."
 end
 
+def output_php(infile)
+  outfile = File.basename(infile, ".*") + ""
+  %x[php #{infile} > #{outfile}]
+  puts "Compile #{infile} => #{outfile}..."
+  compile_haml(outfile.to_s)
+  %x[rm -rf #{outfile}]
+end
+
 def compile_scss(infile)
   outfile = File.basename(infile, ".*") + ".css"
   %x[compass compile]
@@ -13,4 +21,8 @@ end
 
 watch(".*\.haml$") { |infile|
   compile_haml(infile.to_s)
+}
+
+watch(".*\.haml.php$") { |infile|
+  output_php(infile.to_s)
 }

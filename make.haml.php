@@ -1,3 +1,4 @@
+<?php require_once('tools.php');?>
 !!! 5
 
 /
@@ -63,7 +64,7 @@
     %meta{ name: "twitter:creator", content: "wemakeawesomesh" }
 
 
-  %body#we
+  %body#make
 
     %header#header
       %nav#main_nav
@@ -84,53 +85,27 @@
 
 
     %section
-      %h1 We
+      %h1 Make
 
-      %ul.people.grid
-        %li.person
-          %img{ src: "assets/img/avatars/adverplanner.png" }
-          %h5
-            %strong Tom
-            %br
-            %a.username{ href: "http://twitter.com/sydlawrence" } @adverplanner
-        %li.person
-          %img{ src: "assets/img/avatars/adverplanner.png" }
-          %h5
-            %strong Tom
-            %br
-            %a.username{ href: "http://twitter.com/sydlawrence" } @sydlawrence
-        %li.person
-          %img{ src: "assets/img/avatars/adverplanner.png" }
-          %h5
-            %strong Tom
-            %br
-            %a.username{ href: "http://twitter.com/sydlawrence" } @nrocy
-        %li.person
-          %img{ src: "assets/img/avatars/adverplanner.png" }
-          %h5
-            %strong Tom
-            %br
-            %a.username{ href: "http://twitter.com/sydlawrence" } @robhampson
-        %li.person
-          %img{ src: "assets/img/avatars/adverplanner.png" }
-          %h5
-            %strong Tom
-            %br
-            %a.username{ href: "http://twitter.com/sydlawrence" } @skattyadz
+      %ul.grid.case-studies
+        <?php
+          $projects = get_content("projects");
+          foreach ($projects as $project) {
+          $project = set_default($project, "image", "cat.gif");
+        ?>
 
-      %p Yep, it's not often that you see those three words next to each other. Even rarer when it's on an agency website. But then we're not about the ordinary. In fact, we're not really an agency. We're a collective. We're about the awesome. And Cardiff, Halo and Cats are all, we'll hope you'll agree, pretty bloody awesome.
-      %p We Make Awesome Sh was founded by Tom Gibby and Syd Lawrence. Tom and Syd met at Cardiff university through a shared love of all things gaming, geek and tech. We joked about one day starting our own company, little did we know that one final unexpected element would spark this opportunity – cats.
-      %p In early 2011, a few days after the Instagram API was released, we built Instac.at, a comical site that quite literally displayed a live feed of cat images being uploaded to Instagram. After just 24 hours over 30,000 people had visited the site and just a couple of weeks later that number had rocketed, fuelled by coverage from publications such as The Next Web and Mashable. The success of Instac.at lead to us creating Search Instagram – the best place to search for Instagram images online. Less than 9 months later, we've helped a number of brands integrate Instagram into their marketing and social media strategies, as well as increasing our offering to pretty much any piece of digital technology or social media application you can think of.
+        %li.case-study
+          %a.image{ href: ""}
+          .img{ style: "background-image:url(assets/img/<?= $project->image;?>)"}
+          .info
+            %h4.title <?= $project->title; ?>
+            <?php if (isset($project->subtitle)) { ?>
 
-      %p Just before the summer of 2012, Adam Howard joined us. He's a shit hot developer. I am sure you agree. He makes awesome shit.
+            %h5.subtitle <?= $project->subtitle; ?>
 
-      %p Then at the end of the summer of 2012, Paul King joined us. This man tinkers like you wouldn't believe. It's an absolute pleasure to have him on the team. He also makes awesome shit.
+            <?php } ?>
 
-      %p We work wherever we want to work. Our bases are our homes. However Syd has been known to work from yachts in Cannes. Tom primarily works at Poke, Adam likes to check out the sights while he works, like Trafalgar Square, quite literally, and Paul is famous for working whenever he god damn likes.
-
-      %p We Make Awesome Shit.
-
-
+        <?php } ?>
 
     %footer#footer
       %nav

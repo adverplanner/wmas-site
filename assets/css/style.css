@@ -1231,11 +1231,16 @@ section {
 /* line 1, ../../sass/pages/_we.scss */
 .person {
   font-size: 1em;
+  width: 15%;
 }
-/* line 3, ../../sass/pages/_we.scss */
+/* line 4, ../../sass/pages/_we.scss */
 .person .username {
   line-height: 1.5em;
   text-decoration: none;
+}
+/* line 8, ../../sass/pages/_we.scss */
+.person img {
+  width: 100%;
 }
 
 /* line 3, ../../sass/pages/_make.scss */
