@@ -1,0 +1,99 @@
+#single_project {
+  padding-top:$padding*3;
+  #title_section, #image_section {
+    width:50%;
+    display:block;
+    overflow:hidden;
+    position:relative;
+    min-height:300px;
+    box-sizing:border-box;
+    .stretch:before{content:"";display:block;margin-top:100%;}
+  }
+  #title_section {
+    font-size:11px;
+    border-right:1px solid #fff;
+    float:left;
+    background:#1a1a1a;
+    color:#fff;
+    .content {
+      position:absolute;
+      padding:$padding;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+    }
+    h1 {
+      font-size:7em;
+      margin:0;
+    }
+    h2 {
+      @include normal_font;
+      font-size:1.5em;
+    }
+  }
+  #image_section {
+    .img {
+      position:absolute;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size:cover;
+      -webkit-transition:all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition:all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+    &:hover {
+      .img {
+        top:-$padding*5;
+        left:-$padding*5;
+        right:-$padding*5;
+        bottom:-$padding*5;
+      }
+    }
+  }
+  .tags {
+    background:#e5e5e5;
+    display:block;
+    float:none;
+    padding:0;
+    white-space: nowrap;
+    overflow-y:hidden;
+    overflow-x:auto;
+    margin:0;
+    margin-left:-1px;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+    .tag {
+      margin:0;
+      border-top:0px solid #fff;
+      border-right:1px solid #fff;
+      padding:0;
+      display:inline-block;
+      a {
+        display:block;
+        float:left;
+        color:#fff;
+      }
+    }
+  }
+  #view_project {
+    position:absolute;
+    bottom:$padding;
+    color:#fff;
+    font-family: 'bebas neue', arial, sans-serif;
+    color: #1a1a1a;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 5px solid #aaa;
+    &:hover {
+      border-bottom: 5px solid #555;
+    }
+  }
+}

@@ -1,3 +1,14 @@
+# First Install
+
+$ gem install watchr
+$ gem install compass
+$ gem install haml
+
+# Building
+
+$ compass watch
+$ watchr watchr.rb
+
 # An Awesome Boilerplate
 
 This is a mix of so many different things...

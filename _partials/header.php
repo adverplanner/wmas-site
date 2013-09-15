@@ -1,4 +1,4 @@
-<?php require_once('tools.php');?>
+<?php require_once('includes/tools.php');?>
 !!! 5
 -# Variables for social metadata and analytics
 - title = ""
