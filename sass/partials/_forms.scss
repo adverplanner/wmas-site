@@ -1,0 +1,70 @@
+/*----------------------------------------------------------------------------
+ * Forms
+ *---------------------------------------------------------------------------*/
+
+form {
+	text-align:center;
+}
+fieldset {}
+legend {}
+label {
+	
+}
+
+/* Inputs */
+
+input {}
+textarea {}
+
+textarea, input, select {
+	font-size:0.8em;
+}
+
+/* Text Input */
+
+input[type=email] {}
+input[type=password] {}
+input[type=search] {}
+input[type=tel] {}
+input[type=text] {}
+input[type=url] {}
+
+/* Single Option */
+
+input[type=radio] {}
+input[type=checkbox] {}
+
+/* More Inputs */
+
+input[type=color] {}
+input[type=date] {}
+input[type=datetime] {}
+input[type=datetime-local] {}
+input[type=file] {}
+input[type=month] {}
+input[type=number] {}
+input[type=range] {}
+input[type=time] {}
+input[type=week] {}
+
+/* Select */
+
+select {}
+option {}
+optgroup {}
+
+/* Buttons */
+
+button, input[type=reset], input[type=button], input[type=submit] {
+	background:$main-color;
+	color:$secondary-color;
+	border:none;
+	font-size:1em;
+	border-radius:5px;
+	padding:10px 20px;
+
+	&:hover {
+		color:$main-color;
+		background:$secondary-color;
+	}
+}

@@ -1,0 +1,220 @@
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+body {
+  font-family:'Open Sans', arial, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-size: 10px;
+}
+
+a {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+
+
+a:hover {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+
+#container {
+  width: 60%;
+  height: 2000px;
+  margin: 30px auto;
+  border-radius: 4px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'bebas neue', arial, sans-serif;
+  line-height: 1em;
+}
+
+h1 {
+  font-size: 5em;
+  margin:0;
+  margin-bottom:0.5em;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+h5 {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-bottom: 2em;
+}
+
+p strong {
+  font-weight: 600;
+}
+
+p a {
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px dotted #1a1a1a;
+}
+
+p a:hover {
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.block {
+  background-color: #1a1a1a;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size:2em;
+}
+
+.block:hover {
+  background-color: #555;
+}
+
+#header .block {
+  background-color:#fff;
+  color:#1a1a1a;
+  &:hover {
+    background-color:#1a1a1a;
+    color:#fff;
+
+  }
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 1px 15px 0;
+  padding-top: 6px;
+}
+
+#project-hero {
+  width: 100%;
+  height:302px;
+}
+
+#project-name {
+  font-family: 'bebas neue', arial, sans-serif;
+  color: #fff;
+  font-size: 10em;
+  line-height: 50px;
+  padding: 20px 20px 0px 20px;
+}
+
+
+.half {
+  width: 50%;
+  height: 302px;
+  float: left;
+  overflow: hidden;
+}
+
+#left {
+  background-color: #000;
+  position: relative;
+}
+
+#left p {
+  color:#fff;
+  padding: 0 20px 20px 20px;
+  line-height: 0px;
+}
+
+#left a {
+  font-family: 'bebas neue', arial, sans-serif;
+  color: #1a1a1a;
+  font-size:3em;
+  padding: 10px 20px;
+  background-color: #fff;
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  border-bottom: 5px solid #aaa;
+}
+
+#left a:hover {
+  border-bottom: 5px solid #555;
+}
+
+#right {
+  position: relative;
+  background-color: #f1f1f1;
+}
+
+#project-image img {
+  width: 280px;
+  left: 15%;
+  top: 10px;
+  -webkit-transition: all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition:         all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    position: absolute;
+}
+
+#project-image img:hover {
+  left: 10%;
+  width: 300px;
+  -webkit-transition: all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition:         all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+#award img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 83px !important;
+  width: 76px !important;
+  z-index: 1;
+}
+
+span.contact-detail {
+  color: #666;
+}

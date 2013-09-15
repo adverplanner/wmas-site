@@ -1,0 +1,62 @@
+
+
+li.case-study {
+  display:block;
+  float:left;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  width:33.333333333%;
+  min-width:120px;
+  position: relative;
+  border:1px solid #fff;
+  overflow:hidden;
+  &:nth-child(n+4) {
+    width:25%;
+  }
+  &:nth-child(n+8) {
+    width:20%;
+  }
+
+
+  .image {
+    img {
+      width:100%;
+    }
+  }
+  .info {
+    pointer-events:none;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:$padding / 2;
+    color:#fff;
+    padding-top:$padding;
+    -webkit-transition:500ms background;
+    //@include filter-gradient(#000000, #333333, vertical); // IE6-9
+    @include background-image(linear-gradient(bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 60%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%));
+  }
+  img {
+    -webkit-transition:500ms -webkit-filter;
+    -webkit-filter: saturate(10%) brightness(30%);
+  }
+  &:hover {
+    border:1px solid #fff;
+    img {
+      -webkit-filter: saturate(100%) brightness(100%);
+    }
+    .info {
+      @include background-image(linear-gradient(bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.85) 60%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0) 100%));
+
+    }
+  }
+
+  .title, .subtitle {
+    padding:0;
+    margin:0;
+  }
+  .subtitle {
+
+  }
+}

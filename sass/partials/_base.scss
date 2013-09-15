@@ -1,0 +1,249 @@
+body {
+	padding: 50px;
+	background:$background-color;
+	color:$text-color;
+	font-size:14px;
+}
+
+.left {
+	float:left;
+	text-align:left;
+}
+
+.right {
+	float:right;
+	text-align:right;
+}
+
+.center {
+	text-align:center;
+}
+
+
+
+
+/*----------------------------------------------------------------------------
+ * Main Body
+ *---------------------------------------------------------------------------*/
+
+html {}
+body {
+	padding: 50px;
+	background:$background-color;
+	color:$text-color;
+	font-size:14px;
+}
+div {}
+hr {}
+br {}
+
+/*----------------------------------------------------------------------------
+ * Main Block Elements
+ *---------------------------------------------------------------------------*/
+
+header {}
+section {}
+aside {}
+footer {}
+
+/*----------------------------------------------------------------------------
+ * Typical Banner
+ *---------------------------------------------------------------------------*/
+
+/*
+	Use ARIA roles to define your page header so that you can use general
+	<header> tags elsewhere.
+	Also lets you style your header nav independently of other navs
+	http://adactio.com/journal/4267/
+*/
+
+/* Navigation in banner */
+
+header[role="banner"] {}
+
+header[role="banner"] hgroup h1 {}
+header[role="banner"] hgroup h2 {}
+
+header[role="banner"] nav[role="navigation"] {}
+header[role="banner"] nav[role="navigation"] ul {}
+header[role="banner"] nav[role="navigation"] li {}
+header[role="banner"] nav[role="navigation"] a {}
+
+/* Main Content */
+
+div[role=main] {}
+
+/*----------------------------------------------------------------------------
+ * Typical Article Layout
+ *---------------------------------------------------------------------------*/
+
+article {}
+article header {}
+article header hgroup {}
+article header time {}
+article section {}
+article aside {}
+article footer {}
+
+/*----------------------------------------------------------------------------
+ * Headings
+ *---------------------------------------------------------------------------*/
+
+/* All Headings */
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+/* Linked Headings*/
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	text-decoration:none;
+}
+
+/* Individual Headings */
+
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+/* Section Headings */
+
+section h1 {}
+section h2 {}
+section h3 {}
+section h4 {}
+section h5 {}
+section h6 {}
+
+/* Article Headings */
+
+article h1 {}
+article h2 {}
+article h3 {}
+article h4 {}
+article h5 {}
+article h6 {}
+
+/*----------------------------------------------------------------------------
+ * Text
+ *---------------------------------------------------------------------------*/
+
+/* Paragraphs */
+
+p {
+	line-height:1.5em;
+	margin-bottom:2em;
+}
+p+p {}
+
+address {}
+
+/* Inline Elements */
+
+a, a:visited {
+	color: $link-color;
+	&:hover {
+		color: $link-hover-color;
+	}
+}
+abbr {}
+b {}
+cite {}
+code {}
+del {}
+dfn {}
+em {}
+i {}
+img {}
+ins {}
+kbd {}
+mark {}
+q {}
+s {}
+samp {}
+small {}
+span {}
+strong {}
+sub {}
+sup {}
+time {}
+var {}
+u {}
+
+/* Blockquote */
+
+blockquote {}
+blockquote p {}
+blockquote cite {}
+
+/* Preformatted Text */
+
+pre {}
+pre code {}
+
+
+/*----------------------------------------------------------------------------
+ * Lists
+ *---------------------------------------------------------------------------*/
+
+/* All Lists */
+
+dl, ol, ul {}
+li {}
+
+/* Ordered Lists */
+
+ol {}
+ol li {}
+
+/* Unordered Lists */
+
+ul {}
+ul li {}
+
+/* Definition Lists */
+
+dl {}
+dt {}
+dd {}
+
+/* Stuff in Lists */
+
+li p {}
+li ol {}
+li ul {}
+
+/*----------------------------------------------------------------------------
+ * Embedded Content
+ *---------------------------------------------------------------------------*/
+
+/* Audio */
+
+audio {}
+
+/* Images*/
+
+img {}
+a img {}
+
+/* Figures */
+
+figure {}
+figure img {}
+figcaption {}
+
+/* Video */
+
+video {}
+
+/* Other Embeded Content */
+
+canvas {}
+iframe {}
+object {}
+
+
+

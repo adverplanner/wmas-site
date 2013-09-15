@@ -1,0 +1,56 @@
+/*----------------------------------------------------------------------------
+ * Tables
+ *---------------------------------------------------------------------------*/
+
+table {
+	display:inline-block;
+}
+caption {}
+tr {}
+td {}
+
+/* Head */
+
+thead {
+
+}
+thead tr {}
+th {
+	background:$main-color;
+	color:$secondary-color;
+	text-align:left;
+}
+
+th, td {
+	border-right:1px solid $text-color;
+	padding:3px;
+}
+
+tr th:last-child, tr td:last-child {
+	border-right:none;
+}
+
+tr {
+	border-bottom:1px solid $text-color;
+}
+
+table tr:last-child {
+	border-bottom:none;
+}
+
+/* Body */
+
+tbody {}
+tbody tr {}
+tbody td {}
+
+/* Foot */
+
+tfoot {}
+tfoot tr {}
+tfoot td {}
+
+/*
+ colgroup {}
+ col {}
+*/

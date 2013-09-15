@@ -1,0 +1,138 @@
+@import "compass/css3";
+
+@import "reset";
+@import "partials/guide";
+@import "partials/variables";
+@import "partials/base";
+@import "partials/tables";
+@import "partials/forms";
+@import "partials/fonts";
+
+$padding: 20px;
+$sidebar_width: 200px;
+
+body, html {
+	height:100%;
+	padding:0;
+	margin:0;
+}
+
+body {
+	background:#fff;
+}
+
+section {
+  position:absolute;
+  color:#1a1a1a;
+  overflow:auto;
+  z-index:0;
+  top:0;
+	left:$sidebar_width + $padding * 2;
+	padding:$padding 3.5 * $padding;
+  bottom:0;
+  right:0;
+}
+
+#header {
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	width:$sidebar_width;
+	padding:$padding;
+	background:#1a1a1a;
+
+	a {
+		color:#fff;
+		*:hover {
+			color:$main-color;
+		}
+	}
+
+	#categories {
+		a.block {
+			font-size:1.23em;
+		}
+	}
+}
+
+#main_nav {
+	font-size:4.7em;
+	position:absolute;
+	bottom:$padding;
+	li {
+		margin:0;
+		padding:0;
+		line-height:1em;
+		a {
+			text-decoration: none;
+		}
+	}
+}
+
+
+#footer {
+	position:absolute;
+	background:#fff;
+	bottom:0;
+	right:0;
+	white-space: nowrap;
+	overflow-y:auto;
+	left:$sidebar_width + $padding * 2;
+	padding:0 3.5 * $padding;
+	line-height:$padding * 2;
+	font-size:12px;
+	text-align: left;
+	border-top:1px solid rgba(26,26,26,0.2);
+	li {
+		display:inline-block;
+		padding:0;
+		margin:0;
+		font-weight: bold;
+		margin-right:2%;
+		a {
+			margin:0;
+			color:#1a1a1a;
+			padding:0;
+			text-decoration: none;
+		}
+	}
+}
+
+.icon {
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position:center center;
+	display:inline-block;
+	height:10px;
+	margin-top:-2px;
+	margin-right:$padding * 0.3;
+	vertical-align: middle;
+	&.blog {
+		background-image:url(../img/icons/eye.png);
+		width:18px;
+	}
+	&.facebook {
+		background-image:url(../img/icons/fb.png);
+		width:6px;
+	}
+	&.twitter {
+		background-image:url(../img/icons/twitter.png);
+		width:13px;
+	}
+	&.contact {
+		background-image:url(../img/icons/mail.png);
+		width:16px;
+	}
+}
+
+.grid li {
+	display:inline-block;
+	margin-right:$padding * 0.5;
+}
+
+
+
+@import "pages/home";
+@import "pages/we";
+@import "pages/make";
