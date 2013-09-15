@@ -1,4 +1,5 @@
 @import "compass/css3";
+@import "compass/utilities";
 
 @import "reset";
 @import "partials/guide";
@@ -31,6 +32,7 @@ section {
 	padding:$padding 3.5 * $padding;
   bottom:0;
   right:0;
+  padding-bottom: $padding * 3.5;
 }
 
 #header {
@@ -126,6 +128,10 @@ section {
 	}
 }
 
+.grid {
+	@include clearfix;
+}
+
 .grid li {
 	display:block;
 	float:left;
@@ -163,4 +169,5 @@ section {
 @import "pages/we";
 @import "pages/make";
 @import "pages/awesome";
+@import "pages/sh";
 @import "pages/single_project";
