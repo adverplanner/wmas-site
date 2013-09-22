@@ -57,13 +57,13 @@
       %nav#main_nav
         %ul
           %li
-            %a{ href: "/we.html", title: ""} We
+            %a{ href: "/we", title: ""} We
           %li
-            %a{ href: "/make.html", title: ""} Make
+            %a{ href: "/make", title: ""} Make
           %li
-            %a{ href: "/awesome.html", title: ""} Awesome
+            %a{ href: "/awesome", title: ""} Awesome
           %li
-            %a{ href: "/sh.html", title: ""} Sh.it
+            %a{ href: "/sh", title: ""} Sh.it
       %nav#categories
         %ul
           %li

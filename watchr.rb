@@ -1,7 +1,7 @@
 
 def compile_haml(infile)
   outfile = File.basename(infile, ".*") + ".html"
-  %x[haml #{infile} #{outfile}]
+  %x[haml #{infile} build/#{outfile}]
   puts "Compile #{infile} => #{outfile}..."
 end
 

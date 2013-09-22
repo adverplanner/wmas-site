@@ -1197,6 +1197,15 @@ section {
   -webkit-filter: saturate(100%) brightness(100%);
 }
 
+/* line 166, ../../sass/style.scss */
+#back {
+  position: absolute;
+  z-index: 9999;
+  top: 20px;
+  left: 70px;
+  color: #000;
+}
+
 /* line 1, ../../sass/pages/_home.scss */
 #home #header {
   background: rgba(26, 26, 26, 0.4);

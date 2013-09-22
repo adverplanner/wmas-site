@@ -14,7 +14,7 @@ require_once("_partials/header.php");
         ?>
 
         %li.case-study
-          %a.image{ href: ""}
+          %a.image{ href: "/make/<?= $project->slug ?>"}
           .img{ style: "background-image:url(assets/img/<?= $project->image;?>)"}
           .info
             %h4.title <?= $project->title; ?>

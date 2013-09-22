@@ -9,18 +9,17 @@
 }, {
   "title": "Intel",
   "subtitle":"Photo Wall",
-  "link": "/img/intel.jpg",
   "image": "projects/intelwall.png",
   "tags": "client web installation instagram awesomewall intel realtime",
-  "content": "<p>For Outlands festival in San Francisco we created a massive wall showing instagram pics</p>",
+  "slug": "intel-photo-wall",
   "date": "7 August 2012 09:00:00 +0100"
 }, {
   "title": "Modestep Takeover",
   "subtitle": "Social Virus",
-  "link": "http://modestep.s3.amazonaws.com/modestep.mp4",
+  "link": "http://wemakeawesomesh.tumblr.com/post/43477792619/how-modestep-fraped-thousands-of-people",
   "tags": "web virus facebook twitter",
   "image": "projects/modestep.png",
-  "content": "<p>Modestep wanted a \"virus\" for their fans to promote their album \"Evolution Theory\".</p><p>We came up with a way for their fans to be \"infected\" by the \"modestep virus\". Fans were able to download a song by singing in via either their twitter account or their facebook account. Unbeknownst to the fans, this meant that we then had write privelges to their accounts. On launch day, we posted on their accounts \"MODESTEP TOUR BUS CRASH CAUGHT ON CAMERA\" with a link. Clicking on the link took the user throught to a site that took over the users screen.</p><p><a href=\"http://wemakeawesomesh.tumblr.com/post/43477792619/how-modestep-fraped-thousands-of-people\">To see our more extensive write up, click here. </a></p>",
+  "slug": "modestep-social-virus",
   "date": "19 February 2012 12:00:00 +0100"
 }, {
   "tags": "web html5 facebook charity",

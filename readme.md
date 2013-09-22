@@ -9,6 +9,9 @@ $ gem install haml
 $ compass watch
 $ watchr watchr.rb
 
+## Build projects
+$ php projects.php
+
 # An Awesome Boilerplate
 
 This is a mix of so many different things...

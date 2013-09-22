@@ -2,4 +2,6 @@
 - refactor projects
 - featured projects
 - build projects
+  php projects.php
 - general site flow
+- title, description, etc

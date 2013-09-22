@@ -1,0 +1,3 @@
+Modestep wanted a "virus" for their fans to promote their album "Evolution Theory".
+
+We came up with a way for their fans to be "infected" by the "modestep virus". Fans were able to download a song by singing in via either their twitter account or their facebook account. Unbeknownst to the fans, this meant that we then had write privelges to their accounts. On launch day, we posted on their accounts "MODESTEP TOUR BUS CRASH CAUGHT ON CAMERA" with a link. Clicking on the link took the user throught to a site that took over the users screen.

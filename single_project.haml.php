@@ -1,19 +1,26 @@
 <?php
-$slug = "calvin-harris-18-months-mobile-app";
+if (!isset($slug)) {
+  $slug = "calvin-harris-18-months-mobile-app";
+}
 $id = $slug;
-require_once("_partials/header.php");
+require("_partials/header.php");
 $project = get_project($slug);
 ?>
 
     %section#single_project
+      %a#back{ href: "/make" } Back To Projects
       #title_section
         .stretch
         .content
           %h1 <?= $project->title; ?>
 
+          <?php if (isset($project->subtitle)) { ?>
+
           %h2 <?= @$project->subtitle; ?>
 
-          %a.block#view_project{ href: "" } View Project
+          <?php } ?>
+
+          %a.block#view_project{ href: "<?= $project->link; ?>" } View Project
       #image_section
         .stretch
         .img{ style: "background-image:url(/assets/img/<?= $project->image; ?>)" }
@@ -21,7 +28,7 @@ $project = get_project($slug);
         <?php foreach (explode(" ",$project->tags) as $tag) {?>
 
         %li.tag
-          %a.block{ href: "" } <?= $tag; ?>
+          %a.block{ href: "/make/<?= urlencode($tag);?>" } <?= $tag; ?>
 
         <?php } ?>
 
@@ -29,4 +36,4 @@ $project = get_project($slug);
 
 
 
-<?php require_once("_partials/footer.php"); ?>
+<?php require("_partials/footer.php"); ?>
