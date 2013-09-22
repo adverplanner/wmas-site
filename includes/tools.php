@@ -17,11 +17,10 @@ function set_default($obj, $key, $value) {
 }
 
 function get_project($slug) {
-  foreach (get_content("projects") as $project) {
-    if ($project->slug == $slug) {
-      $project->content = get_markdown("projects/".$slug);
-      return $project;
-    }
-  }
+  $projects = get_content("projects");
+  $project = $projects->$slug;
+  if (!isset($project->content))
+    $project->content = get_markdown("projects/".$slug);
+  return $project;
 }
 ?>

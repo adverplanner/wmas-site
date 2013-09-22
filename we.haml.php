@@ -1,6 +1,7 @@
 <?php
 $id="we";
-
+$title = "We";
+$description = "Who are we and what are we all about?";
 require_once("_partials/header.php");
 ?>
 

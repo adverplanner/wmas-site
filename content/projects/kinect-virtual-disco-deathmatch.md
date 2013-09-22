@@ -1,0 +1,1 @@
+At Music Hack Day London, we created a browser based HTML5 canvas multiplayer kinect 'dance' game. Two players can play at the same time. They dance to score points.

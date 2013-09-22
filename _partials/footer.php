@@ -23,10 +23,10 @@
 
 
     -#
-    %script{ src: "assets/js/libs/jquery-1.7.1.min.js" }
+    %script{ src: "/assets/js/libs/jquery-1.7.1.min.js" }
     -# scripts concatenated and minified via build script
-    %script{ src: "assets/js/plugins.js" }
-    %script{ src: "assets/js/script.js" }
+    %script{ src: "/assets/js/plugins.js" }
+    %script{ src: "/assets/js/script.js" }
     -# end scripts
 
     -#

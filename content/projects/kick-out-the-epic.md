@@ -1,0 +1,1 @@
+A simple bookmarklet allowing fans to blow up any website. <a href='http://kickouttheepic.com'>This is a must see</a>!

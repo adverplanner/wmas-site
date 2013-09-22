@@ -1,0 +1,1 @@
+Using an emotive headset. When you wink, you get a screenshot from whatever film you are watching on your phone.

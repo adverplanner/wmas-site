@@ -1,0 +1,1 @@
+*The New York Art Department* were running a 4 day exhibition around **Nyan Cat**, <a href=\"http://nyancatcity.tumblr.com\">NyanCatCity</a>. For it they wanted a creative way to represent images both online and in their physical locations, taken all around the world to be presented in a nyan cat type display. We used our Awesome Wall package to create a Meta#NYANCAT.

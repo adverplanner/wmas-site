@@ -1,621 +1,686 @@
-[{
-  "tags": "mobile phonegap html5 sony columbia",
-  "link": "http://creativesandbox.com/case-study/columbia-records-calvin-harris-18-months",
-  "title": "Calvin Harris",
-  "subtitle": "18 Months app",
-  "image": "projects/calvin.png",
-  "slug": "calvin-harris-18-months-mobile-app",
-  "date": "2 November 2012 12:00:00 +0100"
-}, {
-  "title": "Intel",
-  "subtitle":"Photo Wall",
-  "image": "projects/intelwall.png",
-  "tags": "client web installation instagram awesomewall intel realtime",
-  "slug": "intel-photo-wall",
-  "date": "7 August 2012 09:00:00 +0100"
-}, {
-  "title": "Modestep Takeover",
-  "subtitle": "Social Virus",
-  "link": "http://wemakeawesomesh.tumblr.com/post/43477792619/how-modestep-fraped-thousands-of-people",
-  "tags": "web virus facebook twitter",
-  "image": "projects/modestep.png",
-  "slug": "modestep-social-virus",
-  "date": "19 February 2012 12:00:00 +0100"
-}, {
-  "tags": "web html5 facebook charity",
-  "link": "http://globalheroes.theendofpolio.com/",
-  "image": "projects/globalheroes.png",
-  "title": "Global Heroes",
-  "subtitle": "The End Of Polio",
-  "content": "<p>Native LDN approached us to give them a helping hand with their campaign for Global Poverty Project. GPP has a campaign to eradicate polio, <a href='http://www.theendofpolio.com/home/'>The End Of Polio.</p><p>The client wanted a system that users could create their own superhero avatar to show their support for the campaign. We created an HTML5 Canvas tool to allow users to select various attributes of their Global Hero. As well as a simple way for people to export and share their generated heroes.</p><p>We were honoured to have the campaign featured as <a href='http://www.thirdsector.co.uk/bulletin/third_sector_fundraising_bulletin/article/1171891/the-global-poverty-project/' target='_blank'>Third Sector's Digital Campaign of the Week</a></p><p>The campaign also had the backing of such people as Bill Gates, Stephen Fry and various others. We were tasked with creating custom heroes for each of the ambassadors. From our understanding, everyone involved liked their avatars.</p>",
-  "date": "19 February 2012 12:00:00 +0100"
-}, {
-  "tags": "client web soundcloud sony rca",
-  "link": "http://jlsevolution.com",
-  "image": "projects/jls.png",
-  "title": "JLS",
-  "subtitle": "Album Prestream",
-  "content": "<p>For the launch of JLS' new album \"Evolution\", we built a site that revelaed a new track each day.</p>\n    <p>This used hidden soundcloud players so that we could customise the look and feel.</p>",
-  "date": "31 October 2012 12:00:00 +0100"
-}, {
-  "tags": "meme web youtube viral",
-  "link": "http://harlemshakeroulette.com",
-  "image": "projects/harlemshake.png",
-  "title": "Harlem Shake Roulette",
-  "content": "<p>Everyone knows the online world is a very special place. We started to see a trend of people uploading videos to the backing track of Baauer's Harlem Shake.</p><p>To capitalise on this potential craze, we created Harlem Shake Roulette, a simple site that showed a continuous stream of various user generated harlem shake videos.</p><p>We also got people to submit their own videos. Hundreds of people from all over the world submitted their own videos. From the likes of Ministry of Sound, McDonalds, Capcom, Yo Sushi, Facebook, Vimeo, Deezer, Spotify.</p><p><a href='http://wemakeawesomesh.tumblr.com/post/43190990456/corporate-communications-bulletin-harlem-shake' target='_blank'>We wrote up a very much tongue in cheek blog post about the success of the site, check it out here</a>.</p>",
-  "date": "15 February 2012 12:00:00 +0100"
-}, {
-  "title": "Kylie Minogue",
-  "subtitle": "Tweet To Unnlock",
-  "link": "http://blog.midem.com/2012/05/syd-lawrence-how-to-launch-kylies-new-single-with-25000-tweets/",
-  "tags": "client web twitter emi parlophone realtime",
-  "image": "projects/kylie.png",
-  "content": "<p>To launch kylie's new song we were heavily involved in a tweet to unlock campaign. Fans had to tweet <strong>25000</strong> times with #KylieTimeBomb to unlock the video for her new single Timebomb.</p>\n    <p>We managed to get the <strong>number 1</strong> worldwide trending topic on twitter in <strong>6 minutes</strong>.</p>\n    <p>Perhaps this is why the client said \"I love working with you\" *swoon*</p>",
-  "date": "25 May 2012 12:00:00 +0100"
-}, {
-  "title": "Wake Up Meow Meow",
-  "link": "http://www.youtube.com/watch?v=5krk2SXfZM0&hd=1",
-  "tags": "client installation southbank sms twilio realtime html5",
-  "image": "projects/meowmeow.png",
-  "content": "<p>#WakeUpMeowMeow is an interactive video installation to promote Meow Meow's Little Match Girl show at the Royal Festival Hall.</p><p>The installation asked the public to text in their name to wake up Meow Meow. Meow Meow then gave the person a personalised festive message. This was projected onto the side of the Southbank Centre in London.</p>",
-  "date": "23 December 2012 12:00:00 +0100"
-}, {
-  "tags": "hack client html5 installation cats awesomewall instagram twitter tumblr nyad",
-  "link": "http://www.nyancatcity.com",
-  "title": "META#NYANCATCITY",
-  "image": "projects/nyancat.png",
-  "content": "<p>The New York Art Department were running a 4 day exhibition around Nyan Cat, <a href=\"http://nyancatcity.tumblr.com\">NyanCatCity</a>. For it they wanted a creative way to represent images both online and in their physical locations, taken all around the world to be presented in a nyan cat type display. We used our Awesome Wall package to create a Meta#NYANCAT.</p>",
-  "date": "13 December 2012 12:00:00 +0100"
-}, {
-  "title": "Merry F.cking Christmas",
-  "link": "http://merryf.ckingchristmas.com",
-  "tags": "web sms twilio html5",
-  "image": "projects/ckingxmas.png",
-  "content": "<p>For Christmas 2012, we decided that we should celebrate the holiday period with our friends. We created a simple site for our clients and friends to send in their favourite cracker jokes by sms. So many agencies do similar digital cards, and they are all a bit meh. We decided to go over the top meh, and make the worst experience we could think of.</p>",
-  "date": "23 December 2012 12:00:00 +0100"
-}, {
-  "tags": "hack tv mobile mindcontrol realtime",
-  "link": "http://vimeo.com/54842875",
-  "title": "Wink Magic",
-  "subtitle": "Mind Control",
-  "image": "projects/winkmagic.png",
-  "content": "<p>Using an emotive headset. When you wink, you get a screenshot from whatever film you are watching on your phone.</p>",
-  "date": "9 October 2012 12:00:00 +0100"
-}, {
-  "tags": "hack fish html5 javascript realtime",
-  "link": "http://www.youtube.com/watch?v=oKb2eP1GKvM",
-  "title": "Tune-a-fish",
-  "image": "projects/tuneafish.png",
-  "content": "<p>At Digital Sizzle, we hooked up fish in a tank, to music. we created musical fish.</p>\n    <p>Tracking two goldfish, biggie &amp; 2pac, via a simple webcam, the fish generated sound.</p>",
-  "date": "15 September 2012 12:00:00 +0100"
-}, {
-  "tags": "hack hardware arduino",
-  "link": "http://www.youtube.com/watch?v=s1QqXWoJ5bc",
-  "image": "projects/beerophone.png",
-  "title": "Beerophone 2000",
-  "content": "<p>At Way out West in Sweden, we created a beer bottle midi instrument. 13 beer bottles, 62 metres of cable. Due to it being a MIDI instrument, you could change which sound was played for each bottle.</p>\n    <p>We won the \"best hack\" award at the event.</p>",
-  "date": "15 August 2012 12:00:00 +0100"
-}, {
-  "tags": "facebook hack hardware arduino",
-  "link": "",
-  "title": "Facebook Morse Code Machine",
-  "image": "projects/morse.png",
-  "content": "<p>Connected a genuine 1950's morse code entry pad to the Facebook API so that people could post Facebook statuses using *the* original electronic communication method.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "hack hardware kinect canvas html5 javascript game",
-  "link": "http://www.youtube.com/watch?v=Xr8pi0knapY",
-  "image": "projects/kvdd.png",
-  "title": "Kinect Virtual Disco Deathmatch",
-  "content": "<p>At Music Hack Day London, we created a browser based HTML5 canvas multiplayer kinect 'dance' game.\nTwo players can play at the same time. They dance to score points.</p>",
-  "date": "12 November 2012 12:00:00 +0100"
-}, {
-  "title": "Microsoft Kinect game",
-  "link": "http://www.youtube.com/watch?v=J9MCVB49TaY&feature=youtu.be",
-  "tags": "client hack kinect html5 microsoft",
-  "image": "projects/microsoftkinect.png",
-  "content": "<p><a href='http://ubelly.com'>Ubelly</a> commisioned us to make a Windows Kinect game for Future of Web Design London 2012.</p>\n    <p>The game tests designers on their typeface knowledge and they have to spot helvetica from arial.</p>\n    <p>The hack uses the Kinect for Windows on Windows 8 consumer preview. With the skeletal data being piped to IE10 via WebSockets. This shows off not only the kinect but also IE10's support for HTML5 features such as WebSockets</p>\n    <p><a href='http://www.youtube.com/watch?v=-W1K08FoPo0&feature=youtu.be'>The crowd seemed to enjoy it</a></p>",
-  "date": "15 May 2012 12:22:00 +0100"
-}, {
-  "title": "Plan B",
-  "subtitle":"Twitter bot",
-  "link": "http://musically.com/2012/08/23/campaign-focus-plan-b-ill-manors/",
-  "tags": "client web twitter warner atlantic",
-  "image": "projects/planb.png",
-  "content": "<p>A simple auto reply based of a call to action on all the album posters... Tweet this hashtag, get a link to the album sampler</p>",
-  "date": "23 August 2012"
-}, {
-  "title": "Dada Life",
-  "subtitle":"Epic bookmarklet",
-  "link": "http://kickouttheepic.com",
-  "image": "projects/dadalife.png",
-  "tags": "client web hack bookmarklet plugin universal polydor",
-  "content": "<p>A simple bookmarklet allowing fans to blow up any website. <a href='http://kickouttheepic.com'>This is a must see</a>!</p>",
-  "date": "31 July 2012 12:00:00 +0100"
-}, {
-  "tags": "hack html5 geolocation",
-  "link": "http://syddev.com/weather/",
-  "image": "projects/weather.png",
-  "title": "HTML5 Weather",
-  "content": "<p>Playing around with HTML5 canvas. Created a site that takes your current location and gathers weather information, then displays it in an animated HTML5 canvas.</p>",
-  "date": "12 September 2011 12:00:00 +0100"
-}, {
-  "title": "Movembergram",
-  "link": "http://searchinstagram.com/faces",
-  "tags": "web hack instagram awesomewall",
-  "image": "projects/movembergram.png",
-  "content": "<p>A Search Instagram site with facial recognition to render mos on faces.</p>",
-  "date": "01 November 2011 09:33:00 +0100"
-}, {
-  "tags": "web apis app javascript",
-  "link": "http://searchinstagram.com/",
-  "image": "projects/searchinstagram.png",
-  "title": "Search Instagram",
-  "content": "<p>A cool instagram viewer</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "arduino tv lights hardware",
-  "link": "http://www.youtube.com/watch?v=MBUD_yQtcSY&sns",
-  "title": "Arduino Ambilight",
-  "image": "projects/arduinolight.png",
-  "content": "<p>A clone of the Philips ambilight lighting system.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "plugin javascript bookmarklet",
-  "link": "http://sydlawrence.me/post/5016132764",
-  "title": "Royal Wedding Bunting",
-  "image": "projects/bunting.png",
-  "content": "<p>Everyone loves bunting! We created a bunting bookmarklet in commemoration of the Royal Wedding</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "client web awesomewall instagram twitter tumblr youtube emi virgin",
-  "link": "http://onelasttour.com/dotspots/",
-  "image": "projects/shmwall.png",
-  "title": "Swedish House Mafia",
-  "subtitle":"Photo Feed",
-  "content": "<p>For the announcement of Swedish House Mafia's \"One Last Tour\", they were shining lights onto historical buildings.</p>\n    <p>They wanted a site to bring in all the content being shared around these three dots. Using our Awesome Wall they could do this really easily.</p>",
-  "date": "28 September 2012 12:00:00 +0100"
-}, {
-  "title": "Delilah",
-  "subtitle":"Album Prestream",
-  "link": "http://delilahofficial.co.uk/fromrootsup/",
-  "tags": "client web soundcloud warner atlantic",
-  "image": "projects/delilah.png",
-  "content": "<p>For Delilah's latest album, \"From the roots up\", Atlantic records got in touch and asked us to create a simple site to unlock a new song on each day.</p>",
-  "date": "07 August 2012 12:00:00 +0100"
-}, {
-  "title": "PIAS",
-  "subtitle":"Deezer app",
-  "link": "http://www.deezer.com/app/106931",
-  "tags": "client web deezer pias",
-  "image": "projects/pias_deezer.png",
-  "content": "<p>For the launch of the Deezer App Studio, PIAS asked us to remake their spotify app as a deezer app in an extremely short turnaround. The PIAS app was one of the playform's launch apps, and the CEO of Deezer said it was one of their favourite apps.</p>",
-  "date": "11 November 2012 12:00:00 +0100"
-}, {
-  "title": "Fake Blood",
-  "subtitle":"Album Prestream",
-  "link": "http://fakebloodmusic.com/",
-  "tags": "client web soundcloud pias",
-  "image": "projects/fakeblood.png",
-  "content": "<p>For Fake Bloods's latest album, \"Cells\", [PIAS] got in touch and asked us to create a simple site to unlock a new song on each day.</p>",
-  "date": "01 November 2012 12:00:00 +0100"
-}, {
-  "tags": "hack web tomahawk soundcloud echonest youtube deezer rdio spotify lastfm",
-  "link": "http://toma.hk",
-  "image": "projects/tomahk.png",
-  "title": "Toma.hk",
-  "subtitle":"Music Without Borders",
-  "content": "<p>With some help from some of the guys at <a href=\"http://gettomahawk.com\">Tomahawk</a>, we created Toma.hk, a music service for people to share music worldwide. Hooking into the desktop tomahawk client when available.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "client web awesomewall instagram twitter tumblr youtube emi virgin",
-  "link": "http://www.emelisande.com/hope/#.UJCV8rSG1Ns",
-  "title": "Emeli Sande",
-  "subtitle":"Photo Feed",
-  "image": "projects/emelisande.png",
-  "content": "<p>For Emeli Sand&eacute;'s new single they wanted fans to submit content to create a fan video.</p>\n    <p>This was a great use for our Awesome Wall as they could do this really easily.</p>",
-  "date": "25 October 2012 12:00:00 +0100"
-}, {
-  "title": "Professor Green",
-  "subtitle":"Photo feed",
-  "link": "http://www.professorgreen.co.uk/instagreen/",
-  "tags": "client web instagram awesomewall emi virgin",
-  "image": "projects/progreen.png",
-  "content": "<p>Tour Images using user submitted Instagram images</p>",
-  "date": ""
-}, {
-  "tags": "hack web html5 cats",
-  "link": "http://themostawesomesiteever.com/",
-  "title": "The Most Awesome Site Ever",
-  "content": "<p>We got bored of our home pages so we decided to create a new home page. We hope you agree, it is the most awesome site ever!</p>",
-  "date": "12 October 2012 12:00:00 +0100"
-}, {
-  "tags": "hack web html5 app tv mobile realtime chat",
-  "link": "http://telly.wemakeawesomesh.it/",
-  "title": "TellyChatter",
-  "image": "projects/telechatter.png",
-  "content": "<p>A simple real time segmented chat service for tv watching companion app. For both mobile and desktop.</p>",
-  "date": "28 October 2012 12:00:00 +0100"
-}, {
-  "tags": "ios Arduino javascript tv lights hardware",
-  "link": "http://youtu.be/y3ofEijAg58?t=1m5s",
-  "title": "Maclight",
-  "image": "projects/maclight.jpg",
-  "content": "<p>A lighting system (for Mac) that matched the colours of the video on screen. Also featured a manual iPhone control.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "web awesomewall instagram twitter tumblr youtube charity",
-  "link": "http://www.bigbluetest.org/",
-  "title": "Big Blue Test",
-  "subtitle":"Photo Feed",
-  "image": "projects/bigbluetest.png",
-  "content": "<p>The guys from the Diabetes Hands Foundation contacted us, and asked us ever so kindly if they could have an awesome wall for their site. Charity, that means for free right? Sure, why not :)</p>\n    <p>Go get test yourself for diabetes and post your results on instagram with #bigbluetest.</p>",
-  "date": "28 September 2012 12:00:00 +0100"
-}, {
-  "tags": "web awesomewall instagram twitter tumblr youtube charity",
-  "link": "http://wemakeawesomesh.it/MakeAStand",
-  "title": "#MakeAStand",
-  "subtitle":"Photo Feed",
-  "image": "projects/makeastand.png",
-  "content": "<p>Let me tell you about this girl <a href=\"http://makeastandlemonade.com/\">Vivienne</a>, Vivienne is raising money for child slaves around the world, by running a lemonade stand.</p>\n    <p>Vivienne's dad got in touch, and told us about Vivienne and asked if we could provide her with an Awesome Wall</p>\n    <p><a href=\"http://wemakeawesomesh.it/MakeAStand\">Of course we can!</a></p>",
-  "date": "1 November 2012 12:00:00 +0100"
-}, {
-  "tags": "hack hardware kinect game",
-  "link": "http://www.youtube.com/watch?v=rcrIzCyv50U",
-  "title": "Kinect Pong",
-  "image": "projects/kinectpong.png",
-  "content": "<p>Simple pong game knocked up in Processing while hacking around with the Kinect.</p>\n    <p>Used: Processing, OpenKinect, Daniel Shiffman's Kinect Processing lib</p>",
-  "date": "12 February 2012 12:00:00 +0100"
-}, {
-  "tags": "hack hardware html5 3D game",
-  "link": "http://nrocy.github.com/wooga/",
-  "title": "HTML5 Doom Mockup",
-  "image": "projects/html5doom.png",
-  "content": "<p>A Simple html5 port of a doom map. A canvas based raycaster.</p>",
-  "date": "12 February 2012 12:00:00 +0100"
-}, {
-  "tags": "hack hardware arduino mobile html5 lights",
-  "link": "http://www.youtube.com/watch?v=SZ1rxwWyxt8",
-  "image": "projects/arduinolamp.png",
-  "title": "Arduino Lamp Control",
-  "content": "<p>Controlling a light to turn on and off from a mobile phone</p>",
-  "date": "12 February 2012 12:00:00 +0100"
-}, {
-  "tags": "hack hardware arduino lights",
-  "link": "http://www.youtube.com/watch?v=Xyo_FrnuAPo",
-  "title": "Fun with RGB LEDs & IR sensors",
-  "content": "<p>Picked up a few of these fun RGB LEDs for cheap at the Maker Faire last weekend: IR transmitter/receiver pair, ATtiny25 and PWM to drive the RGB LED.</p>\n    <p>Simple build and reprogrammable via the onboard header.</p>",
-  "date": "12 February 2012 12:00:00 +0100"
-}, {
-  "tags": "hack html5 3D canvas",
-  "link": "http://nrocy.com/creativejs.com/",
-  "image": "projects/creativejs.png",
-  "title": "Creative JS spinning logo redux",
-  "content": "<p>A bit of a joke really. Paul took @sebly\\s creative js logo and made it badass.</p>",
-  "date": "12 February 2012 12:00:00 +0100"
-}, {
-  "tags": "installation instagram",
-  "link": "http://fionachambers.blogspot.co.uk/2012/10/instaspam.html/",
-  "image": "projects/instaspam.jpg",
-  "title": "Instaspam",
-  "content": "<p>Collaboration with artist Fiona Chambers, displayed at the Whitechapel Gallery.</p>",
-  "date": "12 February 2012 12:00:00 +0100"
-}, {
-  "title": "Tomahklet",
-  "link": "http://toma.hk/tools/tomahklet.php",
-  "tags": "web hack tomahawk plugin bookmarklet",
-  "image": "projects/tomahklet.png",
-  "content": "<p>Scrape the web - save playlists and songs you come across while you browse so they are always easy to find and play.</p>\n    <p>Tomahklet currently supports over 35 sites (and growing).</p>\n    <p><a href='http://www.youtube.com/watch?v=fL3ZFRxyQKA'>Checkout the screencast of the bookmarklet in use.</a></p>",
-  "date": "3 July 2012 02:14:00 +0100"
-}, {
-  "title": "Bat Blocker Plugin",
-  "link": "http://syddev.com/batblocker/",
-  "tags": "web hack plugin",
-  "image": "projects/batblocker.png",
-  "content": "<p>A cross browser plugin to stop the dark knight rises spoilers from runing your fun.</p>\n    <p>Someone asked me to create an olympics blocker, <a href='http://syddev.com/olympicsblocker/'>so I did</a>.</p>",
-  "date": "21 July 2012 19:14:00 +0100"
-}, {
-  "title": "Who is reading 50 shades of grey?",
-  "link": "http://whoisreading50shadesofgrey.com",
-  "tags": "web hack twitter facebook",
-  "image": "projects/50shades.png",
-  "content": "<p>Find out which ladies have been getting all excited by 50 Shades of Grey.</p>\n    <p>Catch them in the mood and introduce yourself as 'Christian' on Twitter or Facebook..</p>\n    <p>This is a mashup of public facebook posts and tweets of women talking about reading 50 shades of grey.</p>\n    <p>\"Half way between genius and creepy\"</p>",
-  "date": "5 July 2012 07:14:00 +0100"
-}, {
-  "tags": "mobile app geolocation",
-  "link": "http://mylocaleyes.com/",
-  "image": "projects/localeyes.png",
-  "title": "Local Eyes",
-  "subtitle":"iPhone App",
-  "content": "<p>A mobile app enabling of sharing photos around you.</p>  <p>See and show what is going on around you.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "title": "Share My Playlists iOS app",
-  "link": "http://thenextweb.com/apps/2012/05/05/sharemyplaylists-new-ios-app-is-a-whole-new-way-to-experience-spotify-on-the-go/",
-  "image": "projects/smp.png",
-  "tags": "client mobile app phonegap spotify lastfm",
-  "content": "<p>I was commissioned by <a href='http://sharemyplaylists.com/' target='_blank'>ShareMyPlaylists</a> to create their new iOS app for both iPhone and iPad.</p><p>This is a phonegap app using a custom plugin to use libspotify to allow the user to play songs from spotify directly in the app itself.</p>",
-  "date": "04 May 2012 17:09:00 +0100"
-}, {
-  "title": "May 4th Be With You",
-  "subtitle":"Search Instagram",
-  "link": "http://searchinstagram.com/teststarwars",
-  "tags": "hack instagram web",
-  "image": "projects/may4th.png",
-  "content": "<p>We created a simple search instagram hack to celebrate May 4th, Star Wars Day.</p>",
-  "date": "04 May 2012 00:09:00 +0100"
-}, {
-  "title": "This Was My Jam",
-  "link": "http://syddev.com/thiswasmyjam",
-  "tags": "hack tomahawk",
-  "image": "projects/thiswasmyjam.png",
-  "content": "<p>A service tracking your 'this is my jam' jams. With a beat matched looping stop frame animation of me eating what was my jam. 'Hilarious'. Uses Toma.hk to play the tracks.</p>",
-  "date": "29 April 2012 17:09:00 +0100"
-}, {
-  "tags": "hack hardware arduino realtime",
-  "link": "https://path.com/p/2OL9ce",
-  "title": "Arduino Tweet &amp; Matrix Hack",
-  "image": "projects/matrix.jpg",
-  "content": "<p>At Barcamp Bournemouth, we made an arduino hack that displayed tweets on an 8 by 8 LED matrix. It displayed tweets containing a specific hashtag is a custom typeface that we created, \"Lawrence Sans\". Once this was completed we then connected it up to a real time website. Where people could turn each LED on and off.</p><p>This made that people could draw on our LED board from their website all around the world. This got people from all over the place drawing, you guessed it, penises.</p><p>We won the hack competition :)</p><p>The typeface we created \"Lawrence Sans\" is available on <a href=\"https://github.com/skattyadz/Lawrence-Sans\">github</a> and some kind gentleman, <a href=\"http://twitter.com/brandonhawkes\">Brandon Hawkes</a>, created an actual <a href=\"http://fontstruct.com/fontstructions/show/lawrence_sans\">downloadable font (ttf)</a> of it. We definitely need to use this font on this site.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "title": "Facebook Hipster",
-  "link": "http://syddev.com/fbhipster",
-  "tags": "facebook hack echonest lastfm",
-  "image": "projects/fbhipster.png",
-  "content": "<p>A klout style ranking on your musical tastes</p>",
-  "date": "29 April 2012 17:09:00 +0100"
-}, {
-  "title": "VOD Do You Vant To Vatch",
-  "link": "http://syddev.com/vodsearch",
-  "image": "projects/vodsearch.png",
-  "tags": "hack web tv",
-  "content": "A simple service to show what people are currently watching on tv (powered by zeebox)",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "hack web tv",
-  "link": "http://syddev.com/filmrecs",
-  "title": "Rcmmndr 2.0 Beta",
-  "content": "<p>A film recommendation site. You enter a film, it recommends other films.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "hack web cats",
-  "link": "http://syddev.com/catcha",
-  "image": "projects/catcha.png",
-  "title": "Catcha",
-  "subtitle":"A Pop Captcha",
-  "content": "<p>Can you spot the cat among the pigeons. Stop bots from spamming your site... Ladies and gents, I introduce to you, <a href=\"http://syddev.com/catcha\">Catcha</a></p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "client mobile app phonegap geolocation html5 kfc",
-  "link": "http://itunes.apple.com/gb/app/kfc-finder-uk/id497713500?mt=8",
-  "title": "KFC Finder UK",
-  "subtitle":"iPhone app",
-  "image": "projects/kfc.png",
-  "content": "<p>True (WPP) approached Syd to build a KFC store locator app for iPhone & Android.</p><p>Syd has to admit, he does love his kentucky fried chicken...</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "spotify html5 app",
-  "link": "http://www.youtube.com/watch?v=XFqv5AkND4k",
-  "title": "Suggestify",
-  "subtitle":"Spotify app",
-  "content": "<p>I have created an app for Spotify called Suggestify.</p><p>Suggestify recommends songs based on the current song being played and creates a custom radio.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "client mobile app phonegap",
-  "link": "http://worriednow.com",
-  "title": "WorriedNow",
-  "subtitle":"iPhone app",
-  "image": "projects/worriednow.png",
-  "content": "<p>I was commissioned to build a mobile app for nervous parents. This involved building a backend admin system with a full API and an iPhone app for consumers.</p><p>The iPhone app uses PhoneGap, iAds and in app payments.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "client mobile web app html5",
-  "link": "http://m.videojug.com/",
-  "image": "projects/videojug.png",
-  "title": "Videojug",
-  "subtitle":"Responsive Site",
-  "content": "<p>A mobile friendly, flash free, html5 compatible, responsively designed site. Buzzword bingo full house! *only when browser doesn't support flash</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "client facebook app javascript",
-  "link": "https://www.facebook.com/SeeAustralia?sk=app_286339878066364",
-  "image": "projects/seeaustralia.png",
-  "title": "SeeAustralia",
-  "subtitle":"Photo Feed",
-  "content": "<p>A facebook tab showing the latest photos shared on Instagram for the Australian Tourism board.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "plugin css3",
-  "link": "http://bit.ly/awesomebuttonsdemo",
-  "image": "projects/css3buttons.png",
-  "title": "Awesome css buttons",
-  "content": "<p>Some super simple customisable buttons using only css.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "hack css3",
-  "link": "http://skatty.me/cssmas",
-  "image": "projects/cssmas.png",
-  "title": "Merry CSSmas",
-  "content": "<p>@skattyadz did a simple tech demo for css animations to create a spinning perspective christmas tree..</p>",
-  "date": "14 December 2012 12:00:00 +0100"
-}, {
-  "tags": "hack apis javascript",
-  "link": "http://syddev.com/publiceye",
-  "title": "What accounts are linked online?",
-  "content": "<p>Here I use various services online to pair up user accounts across multiple systems. Do you find it spooky?</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "hack html5 javascript",
-  "link": "http://syddev.com/MarioTheme",
-  "title": "Mario Theme using the Audio API",
-  "image": "projects/mario.png",
-  "content": "<p>Playing around with the Audio API</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "hack apis facebook",
-  "link": "http://sydlawrence.com/facerecog",
-  "image": "projects/riots.png",
-  "title": "London Riots",
-  "subtitle":"Facial Recognition",
-  "content": "<p>Together with a few other people we looked into facial recognition technology in regards to the London riots. It would appear that it caused a stir amongst the media (within the first 24 hours)</p><p>Using Face.com's API and Facebook I was able to obtain a percentage accuracy for facial matches for friends of facebook users and cross reference them against the photos released by the police.</p><p>It didn't work accurately, it wasn't really meant to. It was more about looking into the possibilities of facial recognition and services such as Face.com</p><ul><li><a href=\"http://news.bbc.co.uk/today/hi/today/newsid_9561000/9561682.stm\">Can technology identify looters? - BBC Radio 4 Today Programme</a></li><li><a href=\"http://www.forbes.comprojects/kashmirhill/2011/08/09/will-london-riots-be-the-turning-point-for-facial-recognition-as-crime-fighting-tool/\">Will The London Riots Be The Turning Point For Facial Recognition As A Crime-Fighting Tool? - Forbes</a></li><li><a href=\"http://www.forbes.comprojects/kashmirhill/2011/08/11/london-riots-facial-recognition-vigilantes-abandon-their-project/\">'London Riots Facial Recognition' Vigilantes Abandon Their Project - Forbes</li><li><a href=\"http://www.newscientist.com/article/mg21128266.000-face-recognition-technology-fails-to-find-uk-rioters.html\">Face recognition technology fails to find UK rioters - New Scientist</a></li><li><a href=\"http://www.businessinsider.com/google-group-to-use-facial-recognition-technology-to-out-looters-2011-8\">A New Google Group Uses Facial Recognition Technology To Out Looters - Business Insider</a></li><li><a href=\"http://techcrunch.com/2011/08/09/google-group-members-to-use-facial-recognition-to-identify-london-rioter/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29&utm_content=Google+UK\">Google Group Members to Use Facial Recognition to Identify London Rioters - TechCrunch</a></li><li><a href=\"http://www.geek.com/articles/news/london-riots-google-group-created-to-use-facial-recognition-software-for-identifying-rioters-2011089/\">London Riots: Google Group created to use facial recognition software for identifying rioters - geek.com</a></li><li><a href=\"http://www.google.co.uk/search?gcx=c&sourceid=chrome&ie=UTF-8&q=cnn+london++riots+facial+recognition#sclient=psy-ab&hl=en&source=hp&q=google+group+london+riots+facial+recognition&pbx=1&oq=google+group+london+riots+facial+recognition&aq=f&aqi=g1&aql=1&gs_sm=e&gs_upl=19584l22748l0l23095l23l13l0l4l4l2l295l3008l0.4.9l16l0&bav=on.2,or.r_gc.r_pw.r_cp.,cf.osb&fp=8648a9f5255ebaee&biw=1284&bih=674\">And many more...</li></ul>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "client web apis javascript",
-  "link": "http://www.dieselblackgold.com/#",
-  "title": "Diesel",
-  "subtitle":"Photo Wall",
-  "image": "projects/diesel.png",
-  "content": "<p>An instagram slideshow for the Diesel Black Gold fashion show.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "javascript usability ios",
-  "link": "http://www.youtube.com/watch?v=4-91PZXcJMU",
-  "title": "Passwordless login investigation",
-  "image": "projects/passwordless.png",
-  "content": "<p>Adam's dissertation project. 15,000 words, 2 Ruby on Rails apps, 2 iOS apps.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "lights arduino installation",
-  "link": "http://hisartwork.com/inference",
-  "title": "Inference installation",
-  "image": "projects/inference.png",
-  "content": "<p>Assisted Miami-based artist Joseph Baum with his interactive installation, \"Inference\".</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "plugin javascript",
-  "link": "https://chrome.google.com/webstore/detail/ccbhfckmgoabdiehdodaljhihaomaeaj",
-  "title": "QuickView for Google Plus",
-  "content": "<p>A Chrome extension to add quick view functionality to Google+</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "hack",
-  "link": "http://syddev.com/whois",
-  "title": "Instant domain check",
-  "content": "<p>Instant whois for simple domain availability checker.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "mobile windowsphone",
-  "link": "http://www.windowsphone.com/en-us/store/app/simple-metronome/af2e793e-769c-4f69-8b98-7bfe457f5873",
-  "title": "Simple Metronome",
-  "image": "projects/metronome.png",
-  "content": "<p>A simple Windows Phone metronome app.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "javascript usability",
-  "link": "http://news.ycombinator.com/item?id=3675061",
-  "title": "Password Colour Experiment",
-  "image": "projects/password.png",
-  "content": "<p>A usability experiment on the concept of \"recognising\" passwords.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "client web apis",
-  "link": "http://www.instacanneslions.com/",
-  "title": "InstaCannes Lions",
-  "subtitle":"Photo Feed",
-  "image": "projects/canneslions.png",
-  "content": "<p><a href=\"http://creativesocial.com\">Creative Social</a> approached me to go into collaboration with them for a simple Instagram visualization for the World's Biggest Advertising Awards, Cannes Lions.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "client mobile app phonegap",
-  "link": "http://itunes.apple.com/gb/app/vet-help-direct-pet-symptoms/id453456773?mt=8",
-  "image": "projects/vethelpdirect.png",
-  "title": "Vet Help Direct",
-  "subtitle":"iPhone app",
-  "content": "<p>An animal symptom checker for vet advice and clear guidelines.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "hack javascript",
-  "link": "http://syddev.com/fullscreen",
-  "title": "View Full Screen",
-  "subtitle":"JavaScript Demo",
-  "content": "<p>Using the new fullscreen api with javascript</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "web",
-  "link": "http://theworldsleastexclusivewebsite.com/",
-  "title": "The world's least exclusive website",
-  "content": "<p>A quick reminder about Twitter app authentication. Don't get me wrong. I love what the guys have done with the World's Most Exclusive Website. And to be totally honest, I am jealous that they got their first. But they didn't need to do an auto tweet...</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "plugin javascript",
-  "link": "http://sydlawrence.me/post/6287475440/safari-full-screen-bookmarklet",
-  "title": "Safari Full Screen Bookmarklet",
-  "content": "<p>Safari 5.1 introduced a new full screen API. Use this bookmarklet to make any site go full screen</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "web html5",
-  "link": "http://isittherapture.com/",
-  "title": "Is it the Rapture?",
-  "content": "<p>A countdown app for the rapture 21/05/2011 - The End of The World!</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "mobile html5 geolocation phonegap",
-  "link": "http://syddev.com/alec/public_html",
-  "title": "Ask Alec",
-  "subtitle":"Mobile Web App",
-  "content": "<p>This is simply a prototype for an idea of people asking questions to other people around them.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "hack game",
-  "link": "http://syddev.com/labyrinth",
-  "title": "Firefox Labyrinth game",
-  "content": "<p>Firefox 3.6 introduced an accelerometer to the web. We created a game to showcase this new feature.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "education html5 3D canvas webgl",
-  "link": "http://www.12devsofxmas.co.uk/2012/01/webgl-and-three-js/",
-  "title": "WebGL and three.js",
-  "content": "<p>A tutorial for 12 devs of xmas.</p>",
-  "date": "12 February 2012 12:00:00 +0100"
-}, {
-  "tags": "education javascript",
-  "link": "http://syddev.com/cheatsheet.js",
-  "title": "cheatsheet.js",
-  "content": "<p>A javascript cheatsheet for mobile web app development</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "education css3",
-  "link": "http://syddev.com/cheatsheet.css",
-  "title": "cheatsheet.css",
-  "content": "<p>A css cheatsheet for mobile web app development</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "plugin jquery html5",
-  "link": "http://syddev.com/jquery.videoBG",
-  "title": "jquery.videoBG",
-  "content": "<p>A jQuery plugin to add a background video to any page.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "plugin jquery css3",
-  "link": "http://syddev.com/jquery.shadow",
-  "title": "jquery.shadow",
-  "content": "<p>A jQuery plugin to add various types of shadows to elements.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "education web html5 javascript",
-  "link": "http://js-html5.com",
-  "title": "js-html5.com",
-  "content": "<p>I set up a blog to showcase all the new javascript APIs available in the HTML5 specification.</p><p>Here are links to the demos:</p><nav><li><a href=\"http://syddev.com/js-html5/geolocation\">Geolocation</a></li><li><a href=\"http://syddev.com/js-html5/history\">History</a></li><li><a href=\"http://syddev.com/js-html5/localStorage\">localStorage</a></li><li><a href=\"http://syddev.com/js-html5/offline\">offline events</a></li><li><a href=\"http://syddev.com/js-html5/newSelectors\">new selectors</a></li></nav>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "plugin jquery",
-  "link": "http://syddev.com/jquery.centaur/",
-  "title": "jquery.centaur",
-  "image": "projects/centaur.png",
-  "content": "<p>Turn the text inside any element to generate a centaur</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "plugin jquery",
-  "link": "http://syddev.com/jHover",
-  "title": "jHover",
-  "content": "<p>A jQuery plugin to replace click events with hover events. More a proof of concept.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}, {
-  "tags": "hack apis javascript cats",
-  "link": "http://instac.at/",
-  "title": "instacat",
-  "image": "projects/instacat.png",
-  "content": "<p>Instagram + Cats = The very nexus of the internet.</p>",
-  "date": "12 April 2012 12:00:00 +0100"
-}]
+{
+  "calvin-harris-18-months-mobile-app": {
+    "tags": "mobile phonegap html5 sony columbia",
+    "link": "http://creativesandbox.com/case-study/columbia-records-calvin-harris-18-months",
+    "title": "Calvin Harris",
+    "subtitle": "18 Months app",
+    "image": "projects/calvin.png",
+    "date": "2 November 2012 12:00:00 +0100"
+  },
+  "intel-photo-wall": {
+    "title": "Intel",
+    "subtitle": "Photo Wall",
+    "image": "projects/intelwall.png",
+    "tags": "client web installation instagram awesomewall intel realtime",
+    "date": "7 August 2012 09:00:00 +0100"
+  },
+  "modestep-social-virus": {
+    "title": "Modestep Takeover",
+    "subtitle": "Social Virus",
+    "link": "http://wemakeawesomesh.tumblr.com/post/43477792619/how-modestep-fraped-thousands-of-people",
+    "tags": "web virus facebook twitter",
+    "image": "projects/modestep.png",
+    "date": "19 February 2012 12:00:00 +0100"
+  },
+  "global-heroes-end-of-polio": {
+    "tags": "web html5 facebook charity",
+    "link": "http://globalheroes.theendofpolio.com/",
+    "image": "projects/globalheroes.png",
+    "title": "Global Heroes",
+    "subtitle": "The End Of Polio",
+    "date": "19 February 2012 12:00:00 +0100"
+  },
+  "jls-album-prestream": {
+    "tags": "client web soundcloud sony rca",
+    "link": "http://jlsevolution.com",
+    "image": "projects/jls.png",
+    "title": "JLS",
+    "subtitle": "Album Prestream",
+    "date": "31 October 2012 12:00:00 +0100"
+  },
+  "harlem-shake-roulette": {
+    "tags": "meme web youtube viral",
+    "link": "http://harlemshakeroulette.com",
+    "image": "projects/harlemshake.png",
+    "title": "Harlem Shake Roulette",
+    "date": "15 February 2012 12:00:00 +0100"
+  },
+  "kylie-minogue-tweet-to-unlock": {
+    "title": "Kylie Minogue",
+    "subtitle": "Tweet To Unnlock",
+    "link": "http://blog.midem.com/2012/05/syd-lawrence-how-to-launch-kylies-new-single-with-25000-tweets/",
+    "tags": "client web twitter emi parlophone realtime",
+    "image": "projects/kylie.png",
+    "date": "25 May 2012 12:00:00 +0100"
+  },
+  "wake-up-meow-meow": {
+    "title": "Wake Up Meow Meow",
+    "link": "http://www.youtube.com/watch?v=5krk2SXfZM0&hd=1",
+    "tags": "client installation southbank sms twilio realtime html5",
+    "image": "projects/meowmeow.png",
+    "date": "23 December 2012 12:00:00 +0100"
+  },
+  "nyan-cat-city": {
+    "tags": "hack client html5 installation cats awesomewall instagram twitter tumblr nyad",
+    "link": "http://www.nyancatcity.com",
+    "title": "META#NYANCATCITY",
+    "image": "projects/nyancat.png",
+    "date": "13 December 2012 12:00:00 +0100"
+  },
+  "merry-fcking-christmas": {
+    "title": "Merry F.cking Christmas",
+    "link": "http://merryf.ckingchristmas.com",
+    "tags": "web sms twilio html5",
+    "image": "projects/ckingxmas.png",
+    "date": "23 December 2012 12:00:00 +0100"
+  },
+  "wink-magic": {
+    "tags": "hack tv mobile mindcontrol realtime",
+    "link": "http://vimeo.com/54842875",
+    "title": "Wink Magic",
+    "subtitle": "Mind Control",
+    "image": "projects/winkmagic.png",
+    "date": "9 October 2012 12:00:00 +0100"
+  },
+  "tune-a-fish": {
+    "tags": "hack fish html5 javascript realtime",
+    "link": "http://www.youtube.com/watch?v=oKb2eP1GKvM",
+    "title": "Tune-a-fish",
+    "image": "projects/tuneafish.png",
+    "date": "15 September 2012 12:00:00 +0100"
+  },
+  "beerophone-2000": {
+    "tags": "hack hardware arduino",
+    "link": "http://www.youtube.com/watch?v=s1QqXWoJ5bc",
+    "image": "projects/beerophone.png",
+    "title": "Beerophone 2000",
+    "date": "15 August 2012 12:00:00 +0100"
+  },
+  "facebook-morse-code-machine": {
+    "tags": "facebook hack hardware arduino",
+    "link": "",
+    "title": "Facebook Morse Code Machine",
+    "image": "projects/morse.png",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "kinect-virtual-disco-deathmatch": {
+    "tags": "hack hardware kinect canvas html5 javascript game",
+    "link": "http://www.youtube.com/watch?v=Xr8pi0knapY",
+    "image": "projects/kvdd.png",
+    "title": "Kinect Virtual Disco Deathmatch",
+    "date": "12 November 2012 12:00:00 +0100"
+  },
+  "helvetica-vs-arial-kinect": {
+    "title": "Helvetica vs Arial",
+    "subtitle": "Microsoft Kinect Game",
+    "link": "http://www.youtube.com/watch?v=J9MCVB49TaY&feature=youtu.be",
+    "tags": "client hack kinect html5 microsoft",
+    "image": "projects/microsoftkinect.png",
+    "date": "15 May 2012 12:22:00 +0100"
+  },
+  "plan-b-twitter-bot": {
+    "title": "Plan B",
+    "subtitle": "Twitter bot",
+    "link": "http://musically.com/2012/08/23/campaign-focus-plan-b-ill-manors/",
+    "tags": "client web twitter warner atlantic",
+    "image": "projects/planb.png",
+    "date": "23 August 2012"
+  },
+  "kick-out-the-epic": {
+    "title": "Dada Life",
+    "subtitle": "Epic bookmarklet",
+    "link": "http://kickouttheepic.com",
+    "image": "projects/dadalife.png",
+    "tags": "client web hack bookmarklet plugin universal polydor",
+    "date": "31 July 2012 12:00:00 +0100"
+  },
+  "html5-weather": {
+    "tags": "hack html5 geolocation",
+    "link": "http://syddev.com/weather/",
+    "image": "projects/weather.png",
+    "title": "HTML5 Weather",
+    "date": "12 September 2011 12:00:00 +0100"
+  },
+  "movembergram": {
+    "title": "Movembergram",
+    "link": "http://searchinstagram.com/faces",
+    "tags": "web hack instagram awesomewall",
+    "image": "projects/movembergram.png",
+    "date": "01 November 2011 09:33:00 +0100"
+  },
+  "search-instagram": {
+    "tags": "web apis app javascript",
+    "link": "http://searchinstagram.com/",
+    "image": "projects/searchinstagram.png",
+    "title": "Search Instagram",
+    "content": "<p>A cool instagram viewer</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "arduino-ambilight": {
+    "tags": "arduino tv lights hardware",
+    "link": "http://www.youtube.com/watch?v=MBUD_yQtcSY&sns",
+    "title": "Arduino Ambilight",
+    "image": "projects/arduinolight.png",
+    "content": "<p>A clone of the Philips ambilight lighting system.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "royal-wedding-bunting": {
+    "tags": "plugin javascript bookmarklet",
+    "link": "http://sydlawrence.me/post/5016132764",
+    "title": "Royal Wedding Bunting",
+    "image": "projects/bunting.png",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "swedish-house-mafia-photo-feed": {
+    "tags": "client web awesomewall instagram twitter tumblr youtube emi virgin",
+    "link": "http://onelasttour.com/dotspots/",
+    "image": "projects/shmwall.png",
+    "title": "Swedish House Mafia",
+    "subtitle": "Photo Feed",
+    "date": "28 September 2012 12:00:00 +0100"
+  },
+  "delilah-album-prestream": {
+    "title": "Delilah",
+    "subtitle": "Album Prestream",
+    "link": "http://delilahofficial.co.uk/fromrootsup/",
+    "tags": "client web soundcloud warner atlantic",
+    "image": "projects/delilah.png",
+    "date": "07 August 2012 12:00:00 +0100"
+  },
+  "pias-deezer-app": {
+    "title": "PIAS",
+    "subtitle": "Deezer app",
+    "link": "http://www.deezer.com/app/106931",
+    "tags": "client web deezer pias",
+    "image": "projects/pias_deezer.png",
+    "date": "11 November 2012 12:00:00 +0100"
+  },
+  "fake-blood-album-prestream": {
+    "title": "Fake Blood",
+    "subtitle": "Album Prestream",
+    "link": "http://fakebloodmusic.com/",
+    "tags": "client web soundcloud pias",
+    "image": "projects/fakeblood.png",
+    "content": "<p>For Fake Bloods's latest album, \"Cells\", [PIAS] got in touch and asked us to create a simple site to unlock a new song on each day.</p>",
+    "date": "01 November 2012 12:00:00 +0100"
+  },
+  "toma-hk-music-without-borders": {
+    "tags": "hack web tomahawk soundcloud echonest youtube deezer rdio spotify lastfm",
+    "link": "http://toma.hk",
+    "image": "projects/tomahk.png",
+    "title": "Toma.hk",
+    "subtitle": "Music Without Borders",
+    "content": "<p>With some help from some of the guys at <a href=\"http://gettomahawk.com\">Tomahawk</a>, we created Toma.hk, a music service for people to share music worldwide. Hooking into the desktop tomahawk client when available.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "emeli-sande-photo-feed": {
+    "tags": "client web awesomewall instagram twitter tumblr youtube emi virgin",
+    "link": "http://www.emelisande.com/hope/#.UJCV8rSG1Ns",
+    "title": "Emeli Sande",
+    "subtitle": "Photo Feed",
+    "image": "projects/emelisande.png",
+    "content": "<p>For Emeli Sand&eacute;'s new single they wanted fans to submit content to create a fan video.</p> <p>This was a great use for our Awesome Wall as they could do this really easily.</p>",
+    "date": "25 October 2012 12:00:00 +0100"
+  },
+  "professor-green-photo-feed": {
+    "title": "Professor Green",
+    "subtitle": "Photo feed",
+    "link": "http://www.professorgreen.co.uk/instagreen/",
+    "tags": "client web instagram awesomewall emi virgin",
+    "image": "projects/progreen.png",
+    "content": "<p>Tour Images using user submitted Instagram images</p>",
+    "date": ""
+  },
+  "the-most-awesome-site-ever": {
+    "tags": "hack web html5 cats",
+    "link": "http://themostawesomesiteever.com/",
+    "title": "The Most Awesome Site Ever",
+    "content": "<p>We got bored of our home pages so we decided to create a new home page. We hope you agree, it is the most awesome site ever!</p>",
+    "date": "12 October 2012 12:00:00 +0100"
+  },
+  "tellychatter": {
+    "tags": "hack web html5 app tv mobile realtime chat",
+    "link": "http://telly.wemakeawesomesh.it/",
+    "title": "TellyChatter",
+    "image": "projects/telechatter.png",
+    "content": "<p>A simple real time segmented chat service for tv watching companion app. For both mobile and desktop.</p>",
+    "date": "28 October 2012 12:00:00 +0100"
+  },
+  "maclight": {
+    "tags": "ios Arduino javascript tv lights hardware",
+    "link": "http://youtu.be/y3ofEijAg58?t=1m5s",
+    "title": "Maclight",
+    "image": "projects/maclight.jpg",
+    "content": "<p>A lighting system (for Mac) that matched the colours of the video on screen. Also featured a manual iPhone control.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "big-blue-test-photo-feed": {
+    "tags": "web awesomewall instagram twitter tumblr youtube charity",
+    "link": "http://www.bigbluetest.org/",
+    "title": "Big Blue Test",
+    "subtitle": "Photo Feed",
+    "image": "projects/bigbluetest.png",
+    "content": "<p>The guys from the Diabetes Hands Foundation contacted us, and asked us ever so kindly if they could have an awesome wall for their site. Charity, that means for free right? Sure, why not :)</p>    <p>Go get test yourself for diabetes and post your results on instagram with #bigbluetest.</p>",
+    "date": "28 September 2012 12:00:00 +0100"
+  },
+  "makeastand-photo-feed": {
+    "tags": "web awesomewall instagram twitter tumblr youtube charity",
+    "link": "http://wemakeawesomesh.it/MakeAStand",
+    "title": "#MakeAStand",
+    "subtitle": "Photo Feed",
+    "image": "projects/makeastand.png",
+    "content": "<p>Let me tell you about this girl <a href=\"http://makeastandlemonade.com/\">Vivienne</a>, Vivienne is raising money for child slaves around the world, by running a lemonade stand.</p>    <p>Vivienne's dad got in touch, and told us about Vivienne and asked if we could provide her with an Awesome Wall</p>    <p><a href=\"http://wemakeawesomesh.it/MakeAStand\">Of course we can!</a></p>",
+    "date": "1 November 2012 12:00:00 +0100"
+  },
+  "kinect-pong": {
+    "tags": "hack hardware kinect game",
+    "link": "http://www.youtube.com/watch?v=rcrIzCyv50U",
+    "title": "Kinect Pong",
+    "image": "projects/kinectpong.png",
+    "content": "<p>Simple pong game knocked up in Processing while hacking around with the Kinect.</p>    <p>Used: Processing, OpenKinect, Daniel Shiffman's Kinect Processing lib</p>",
+    "date": "12 February 2012 12:00:00 +0100"
+  },
+  "html5-doom-mockup": {
+    "tags": "hack hardware html5 3D game",
+    "link": "http://nrocy.github.com/wooga/",
+    "title": "HTML5 Doom Mockup",
+    "image": "projects/html5doom.png",
+    "content": "<p>A Simple html5 port of a doom map. A canvas based raycaster.</p>",
+    "date": "12 February 2012 12:00:00 +0100"
+  },
+  "arduino-lamp-control": {
+    "tags": "hack hardware arduino mobile html5 lights",
+    "link": "http://www.youtube.com/watch?v=SZ1rxwWyxt8",
+    "image": "projects/arduinolamp.png",
+    "title": "Arduino Lamp Control",
+    "content": "<p>Controlling a light to turn on and off from a mobile phone</p>",
+    "date": "12 February 2012 12:00:00 +0100"
+  },
+  "fun-with-rgb-leds-ir-sensors": {
+    "tags": "hack hardware arduino lights",
+    "link": "http://www.youtube.com/watch?v=Xyo_FrnuAPo",
+    "title": "Fun with RGB LEDs & IR sensors",
+    "content": "<p>Picked up a few of these fun RGB LEDs for cheap at the Maker Faire last weekend: IR transmitter/receiver pair, ATtiny25 and PWM to drive the RGB LED.</p>    <p>Simple build and reprogrammable via the onboard header.</p>",
+    "date": "12 February 2012 12:00:00 +0100"
+  },
+  "creative-js-spinning-logo-redux": {
+    "tags": "hack html5 3D canvas",
+    "link": "http://nrocy.com/creativejs.com/",
+    "image": "projects/creativejs.png",
+    "title": "Creative JS spinning logo redux",
+    "content": "<p>A bit of a joke really. Paul took @sebly\\s creative js logo and made it badass.</p>",
+    "date": "12 February 2012 12:00:00 +0100"
+  },
+  "instaspam": {
+    "tags": "installation instagram",
+    "link": "http://fionachambers.blogspot.co.uk/2012/10/instaspam.html/",
+    "image": "projects/instaspam.jpg",
+    "title": "Instaspam",
+    "content": "<p>Collaboration with artist Fiona Chambers, displayed at the Whitechapel Gallery.</p>",
+    "date": "12 February 2012 12:00:00 +0100"
+  },
+  "tomahklet": {
+    "title": "Tomahklet",
+    "link": "http://toma.hk/tools/tomahklet.php",
+    "tags": "web hack tomahawk plugin bookmarklet",
+    "image": "projects/tomahklet.png",
+    "content": "<p>Scrape the web - save playlists and songs you come across while you browse so they are always easy to find and play.</p>    <p>Tomahklet currently supports over 35 sites (and growing).</p>    <p><a href='http://www.youtube.com/watch?v=fL3ZFRxyQKA'>Checkout the screencast of the bookmarklet in use.</a></p>",
+    "date": "3 July 2012 02:14:00 +0100"
+  },
+  "bat-blocker-plugin": {
+    "title": "Bat Blocker Plugin",
+    "link": "http://syddev.com/batblocker/",
+    "tags": "web hack plugin",
+    "image": "projects/batblocker.png",
+    "content": "<p>A cross browser plugin to stop the dark knight rises spoilers from runing your fun.</p>    <p>Someone asked me to create an olympics blocker, <a href='http://syddev.com/olympicsblocker/'>so I did</a>.</p>",
+    "date": "21 July 2012 19:14:00 +0100"
+  },
+  "who-is-reading-50-shades-of-grey": {
+    "title": "Who is reading 50 shades of grey?",
+    "link": "http://whoisreading50shadesofgrey.com",
+    "tags": "web hack twitter facebook",
+    "image": "projects/50shades.png",
+    "content": "<p>Find out which ladies have been getting all excited by 50 Shades of Grey.</p>    <p>Catch them in the mood and introduce yourself as 'Christian' on Twitter or Facebook..</p>    <p>This is a mashup of public facebook posts and tweets of women talking about reading 50 shades of grey.</p>    <p>\"Half way between genius and creepy\"</p>",
+    "date": "5 July 2012 07:14:00 +0100"
+  },
+  "local-eyes-iphone-app": {
+    "tags": "mobile app geolocation",
+    "link": "http://mylocaleyes.com/",
+    "image": "projects/localeyes.png",
+    "title": "Local Eyes",
+    "subtitle": "iPhone App",
+    "content": "<p>A mobile app enabling of sharing photos around you.</p>  <p>See and show what is going on around you.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "share-my-playlists-ios-app": {
+    "title": "Share My Playlists iOS app",
+    "link": "http://thenextweb.com/apps/2012/05/05/sharemyplaylists-new-ios-app-is-a-whole-new-way-to-experience-spotify-on-the-go/",
+    "image": "projects/smp.png",
+    "tags": "client mobile app phonegap spotify lastfm",
+    "content": "<p>I was commissioned by <a href='http://sharemyplaylists.com/' target='_blank'>ShareMyPlaylists</a> to create their new iOS app for both iPhone and iPad.</p><p>This is a phonegap app using a custom plugin to use libspotify to allow the user to play songs from spotify directly in the app itself.</p>",
+    "date": "04 May 2012 17:09:00 +0100"
+  },
+  "may-4th-be-with-you-search-instagram": {
+    "title": "May 4th Be With You",
+    "subtitle": "Search Instagram",
+    "link": "http://searchinstagram.com/teststarwars",
+    "tags": "hack instagram web",
+    "image": "projects/may4th.png",
+    "content": "<p>We created a simple search instagram hack to celebrate May 4th, Star Wars Day.</p>",
+    "date": "04 May 2012 00:09:00 +0100"
+  },
+  "this-was-my-jam": {
+    "title": "This Was My Jam",
+    "link": "http://syddev.com/thiswasmyjam",
+    "tags": "hack tomahawk",
+    "image": "projects/thiswasmyjam.png",
+    "content": "<p>A service tracking your 'this is my jam' jams. With a beat matched looping stop frame animation of me eating what was my jam. 'Hilarious'. Uses Toma.hk to play the tracks.</p>",
+    "date": "29 April 2012 17:09:00 +0100"
+  },
+  "arduino-tweet-matrix-hack": {
+    "tags": "hack hardware arduino realtime",
+    "link": "https://path.com/p/2OL9ce",
+    "title": "Arduino Tweet &amp; Matrix Hack",
+    "image": "projects/matrix.jpg",
+    "content": "<p>At Barcamp Bournemouth, we made an arduino hack that displayed tweets on an 8 by 8 LED matrix. It displayed tweets containing a specific hashtag is a custom typeface that we created, \"Lawrence Sans\". Once this was completed we then connected it up to a real time website. Where people could turn each LED on and off.</p><p>This made that people could draw on our LED board from their website all around the world. This got people from all over the place drawing, you guessed it, penises.</p><p>We won the hack competition :)</p><p>The typeface we created \"Lawrence Sans\" is available on <a href=\"https://github.com/skattyadz/Lawrence-Sans\">github</a> and some kind gentleman, <a href=\"http://twitter.com/brandonhawkes\">Brandon Hawkes</a>, created an actual <a href=\"http://fontstruct.com/fontstructions/show/lawrence_sans\">downloadable font (ttf)</a> of it. We definitely need to use this font on this site.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "facebook-hipster": {
+    "title": "Facebook Hipster",
+    "link": "http://syddev.com/fbhipster",
+    "tags": "facebook hack echonest lastfm",
+    "image": "projects/fbhipster.png",
+    "content": "<p>A klout style ranking on your musical tastes</p>",
+    "date": "29 April 2012 17:09:00 +0100"
+  },
+  "vod-do-you-vant-to-vatch": {
+    "title": "VOD Do You Vant To Vatch",
+    "link": "http://syddev.com/vodsearch",
+    "image": "projects/vodsearch.png",
+    "tags": "hack web tv",
+    "content": "A simple service to show what people are currently watching on tv (powered by zeebox)",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "rcmmndr-2-0-beta": {
+    "tags": "hack web tv",
+    "link": "http://syddev.com/filmrecs",
+    "title": "Rcmmndr 2.0 Beta",
+    "content": "<p>A film recommendation site. You enter a film, it recommends other films.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "catcha-a-pop-captcha": {
+    "tags": "hack web cats",
+    "link": "http://syddev.com/catcha",
+    "image": "projects/catcha.png",
+    "title": "Catcha",
+    "subtitle": "A Pop Captcha",
+    "content": "<p>Can you spot the cat among the pigeons. Stop bots from spamming your site... Ladies and gents, I introduce to you, <a href=\"http://syddev.com/catcha\">Catcha</a></p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "kfc-finder-uk-iphone-app": {
+    "tags": "client mobile app phonegap geolocation html5 kfc",
+    "link": "http://itunes.apple.com/gb/app/kfc-finder-uk/id497713500?mt=8",
+    "title": "KFC Finder UK",
+    "subtitle": "iPhone app",
+    "image": "projects/kfc.png",
+    "content": "<p>True (WPP) approached Syd to build a KFC store locator app for iPhone & Android.</p><p>Syd has to admit, he does love his kentucky fried chicken...</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "suggestify-spotify-app": {
+    "tags": "spotify html5 app",
+    "link": "http://www.youtube.com/watch?v=XFqv5AkND4k",
+    "title": "Suggestify",
+    "subtitle": "Spotify app",
+    "content": "<p>I have created an app for Spotify called Suggestify.</p><p>Suggestify recommends songs based on the current song being played and creates a custom radio.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "worriednow-iphone-app": {
+    "tags": "client mobile app phonegap",
+    "link": "http://worriednow.com",
+    "title": "WorriedNow",
+    "subtitle": "iPhone app",
+    "image": "projects/worriednow.png",
+    "content": "<p>I was commissioned to build a mobile app for nervous parents. This involved building a backend admin system with a full API and an iPhone app for consumers.</p><p>The iPhone app uses PhoneGap, iAds and in app payments.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "videojug-responsive-site": {
+    "tags": "client mobile web app html5",
+    "link": "http://m.videojug.com/",
+    "image": "projects/videojug.png",
+    "title": "Videojug",
+    "subtitle": "Responsive Site",
+    "content": "<p>A mobile friendly, flash free, html5 compatible, responsively designed site. Buzzword bingo full house! *only when browser doesn't support flash</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "seeaustralia-photo-feed": {
+    "tags": "client facebook app javascript",
+    "link": "https://www.facebook.com/SeeAustralia?sk=app_286339878066364",
+    "image": "projects/seeaustralia.png",
+    "title": "SeeAustralia",
+    "subtitle": "Photo Feed",
+    "content": "<p>A facebook tab showing the latest photos shared on Instagram for the Australian Tourism board.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "awesome-css-buttons": {
+    "tags": "plugin css3",
+    "link": "http://bit.ly/awesomebuttonsdemo",
+    "image": "projects/css3buttons.png",
+    "title": "Awesome css buttons",
+    "content": "<p>Some super simple customisable buttons using only css.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "merry-cssmas": {
+    "tags": "hack css3",
+    "link": "http://skatty.me/cssmas",
+    "image": "projects/cssmas.png",
+    "title": "Merry CSSmas",
+    "content": "<p>@skattyadz did a simple tech demo for css animations to create a spinning perspective christmas tree..</p>",
+    "date": "14 December 2012 12:00:00 +0100"
+  },
+  "what-accounts-are-linked-online": {
+    "tags": "hack apis javascript",
+    "link": "http://syddev.com/publiceye",
+    "title": "What accounts are linked online?",
+    "content": "<p>Here I use various services online to pair up user accounts across multiple systems. Do you find it spooky?</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "mario-theme-using-the-audio-api": {
+    "tags": "hack html5 javascript",
+    "link": "http://syddev.com/MarioTheme",
+    "title": "Mario Theme using the Audio API",
+    "image": "projects/mario.png",
+    "content": "<p>Playing around with the Audio API</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "london-riots-facial-recognition": {
+    "tags": "hack apis facebook",
+    "link": "http://sydlawrence.com/facerecog",
+    "image": "projects/riots.png",
+    "title": "London Riots",
+    "subtitle": "Facial Recognition",
+    "content": "<p>Together with a few other people we looked into facial recognition technology in regards to the London riots. It would appear that it caused a stir amongst the media (within the first 24 hours)</p><p>Using Face.com's API and Facebook I was able to obtain a percentage accuracy for facial matches for friends of facebook users and cross reference them against the photos released by the police.</p><p>It didn't work accurately, it wasn't really meant to. It was more about looking into the possibilities of facial recognition and services such as Face.com</p><ul><li><a href=\"http://news.bbc.co.uk/today/hi/today/newsid_9561000/9561682.stm\">Can technology identify looters? - BBC Radio 4 Today Programme</a></li><li><a href=\"http://www.forbes.comprojects/kashmirhill/2011/08/09/will-london-riots-be-the-turning-point-for-facial-recognition-as-crime-fighting-tool/\">Will The London Riots Be The Turning Point For Facial Recognition As A Crime-Fighting Tool? - Forbes</a></li><li><a href=\"http://www.forbes.comprojects/kashmirhill/2011/08/11/london-riots-facial-recognition-vigilantes-abandon-their-project/\">'London Riots Facial Recognition' Vigilantes Abandon Their Project - Forbes</li><li><a href=\"http://www.newscientist.com/article/mg21128266.000-face-recognition-technology-fails-to-find-uk-rioters.html\">Face recognition technology fails to find UK rioters - New Scientist</a></li><li><a href=\"http://www.businessinsider.com/google-group-to-use-facial-recognition-technology-to-out-looters-2011-8\">A New Google Group Uses Facial Recognition Technology To Out Looters - Business Insider</a></li><li><a href=\"http://techcrunch.com/2011/08/09/google-group-members-to-use-facial-recognition-to-identify-london-rioter/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29&utm_content=Google+UK\">Google Group Members to Use Facial Recognition to Identify London Rioters - TechCrunch</a></li><li><a href=\"http://www.geek.com/articles/news/london-riots-google-group-created-to-use-facial-recognition-software-for-identifying-rioters-2011089/\">London Riots: Google Group created to use facial recognition software for identifying rioters - geek.com</a></li><li><a href=\"http://www.google.co.uk/search?gcx=c&sourceid=chrome&ie=UTF-8&q=cnn+london++riots+facial+recognition#sclient=psy-ab&hl=en&source=hp&q=google+group+london+riots+facial+recognition&pbx=1&oq=google+group+london+riots+facial+recognition&aq=f&aqi=g1&aql=1&gs_sm=e&gs_upl=19584l22748l0l23095l23l13l0l4l4l2l295l3008l0.4.9l16l0&bav=on.2,or.r_gc.r_pw.r_cp.,cf.osb&fp=8648a9f5255ebaee&biw=1284&bih=674\">And many more...</li></ul>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "diesel-photo-wall": {
+    "tags": "client web apis javascript",
+    "link": "http://www.dieselblackgold.com/#",
+    "title": "Diesel",
+    "subtitle": "Photo Wall",
+    "image": "projects/diesel.png",
+    "content": "<p>An instagram slideshow for the Diesel Black Gold fashion show.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "passwordless-login-investigation": {
+    "tags": "javascript usability ios",
+    "link": "http://www.youtube.com/watch?v=4-91PZXcJMU",
+    "title": "Passwordless login investigation",
+    "image": "projects/passwordless.png",
+    "content": "<p>Adam's dissertation project. 15,000 words, 2 Ruby on Rails apps, 2 iOS apps.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "inference-installation": {
+    "tags": "lights arduino installation",
+    "link": "http://hisartwork.com/inference",
+    "title": "Inference installation",
+    "image": "projects/inference.png",
+    "content": "<p>Assisted Miami-based artist Joseph Baum with his interactive installation, \"Inference\".</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "quickview-for-google-plus": {
+    "tags": "plugin javascript",
+    "link": "https://chrome.google.com/webstore/detail/ccbhfckmgoabdiehdodaljhihaomaeaj",
+    "title": "QuickView for Google Plus",
+    "content": "<p>A Chrome extension to add quick view functionality to Google+</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "instant-domain-check": {
+    "tags": "hack",
+    "link": "http://syddev.com/whois",
+    "title": "Instant domain check",
+    "content": "<p>Instant whois for simple domain availability checker.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "simple-metronome": {
+    "tags": "mobile windowsphone",
+    "link": "http://www.windowsphone.com/en-us/store/app/simple-metronome/af2e793e-769c-4f69-8b98-7bfe457f5873",
+    "title": "Simple Metronome",
+    "image": "projects/metronome.png",
+    "content": "<p>A simple Windows Phone metronome app.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "password-colour-experiment": {
+    "tags": "javascript usability",
+    "link": "http://news.ycombinator.com/item?id=3675061",
+    "title": "Password Colour Experiment",
+    "image": "projects/password.png",
+    "content": "<p>A usability experiment on the concept of \"recognising\" passwords.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "instacannes-lions-photo-feed": {
+    "tags": "client web apis",
+    "link": "http://www.instacanneslions.com/",
+    "title": "InstaCannes Lions",
+    "subtitle": "Photo Feed",
+    "image": "projects/canneslions.png",
+    "content": "<p><a href=\"http://creativesocial.com\">Creative Social</a> approached me to go into collaboration with them for a simple Instagram visualization for the World's Biggest Advertising Awards, Cannes Lions.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "vet-help-direct-iphone-app": {
+    "tags": "client mobile app phonegap",
+    "link": "http://itunes.apple.com/gb/app/vet-help-direct-pet-symptoms/id453456773?mt=8",
+    "image": "projects/vethelpdirect.png",
+    "title": "Vet Help Direct",
+    "subtitle": "iPhone app",
+    "content": "<p>An animal symptom checker for vet advice and clear guidelines.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "view-full-screen-javascript-demo": {
+    "tags": "hack javascript",
+    "link": "http://syddev.com/fullscreen",
+    "title": "View Full Screen",
+    "subtitle": "JavaScript Demo",
+    "content": "<p>Using the new fullscreen api with javascript</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "the-worlds-least-exclusive-website": {
+    "tags": "web",
+    "link": "http://theworldsleastexclusivewebsite.com/",
+    "title": "The world's least exclusive website",
+    "content": "<p>A quick reminder about Twitter app authentication. Don't get me wrong. I love what the guys have done with the World's Most Exclusive Website. And to be totally honest, I am jealous that they got their first. But they didn't need to do an auto tweet...</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "safari-full-screen-bookmarklet": {
+    "tags": "plugin javascript",
+    "link": "http://sydlawrence.me/post/6287475440/safari-full-screen-bookmarklet",
+    "title": "Safari Full Screen Bookmarklet",
+    "content": "<p>Safari 5.1 introduced a new full screen API. Use this bookmarklet to make any site go full screen</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "is-it-the-rapture": {
+    "tags": "web html5",
+    "link": "http://isittherapture.com/",
+    "title": "Is it the Rapture?",
+    "content": "<p>A countdown app for the rapture 21/05/2011 - The End of The World!</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "ask-alec-mobile-web-app": {
+    "tags": "mobile html5 geolocation phonegap",
+    "link": "http://syddev.com/alec/public_html",
+    "title": "Ask Alec",
+    "subtitle": "Mobile Web App",
+    "content": "<p>This is simply a prototype for an idea of people asking questions to other people around them.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "firefox-labyrinth-game": {
+    "tags": "hack game",
+    "link": "http://syddev.com/labyrinth",
+    "title": "Firefox Labyrinth game",
+    "content": "<p>Firefox 3.6 introduced an accelerometer to the web. We created a game to showcase this new feature.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "webgl-and-three-js": {
+    "tags": "education html5 3D canvas webgl",
+    "link": "http://www.12devsofxmas.co.uk/2012/01/webgl-and-three-js/",
+    "title": "WebGL and three.js",
+    "content": "<p>A tutorial for 12 devs of xmas.</p>",
+    "date": "12 February 2012 12:00:00 +0100"
+  },
+  "cheatsheet-js": {
+    "tags": "education javascript",
+    "link": "http://syddev.com/cheatsheet.js",
+    "title": "cheatsheet.js",
+    "content": "<p>A javascript cheatsheet for mobile web app development</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "cheatsheet-css": {
+    "tags": "education css3",
+    "link": "http://syddev.com/cheatsheet.css",
+    "title": "cheatsheet.css",
+    "content": "<p>A css cheatsheet for mobile web app development</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "jquery-videobg": {
+    "tags": "plugin jquery html5",
+    "link": "http://syddev.com/jquery.videoBG",
+    "title": "jquery.videoBG",
+    "content": "<p>A jQuery plugin to add a background video to any page.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "jquery-shadow": {
+    "tags": "plugin jquery css3",
+    "link": "http://syddev.com/jquery.shadow",
+    "title": "jquery.shadow",
+    "content": "<p>A jQuery plugin to add various types of shadows to elements.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "js-html5-com": {
+    "tags": "education web html5 javascript",
+    "link": "http://js-html5.com",
+    "title": "js-html5.com",
+    "content": "<p>I set up a blog to showcase all the new javascript APIs available in the HTML5 specification.</p><p>Here are links to the demos:</p><nav><li><a href=\"http://syddev.com/js-html5/geolocation\">Geolocation</a></li><li><a href=\"http://syddev.com/js-html5/history\">History</a></li><li><a href=\"http://syddev.com/js-html5/localStorage\">localStorage</a></li><li><a href=\"http://syddev.com/js-html5/offline\">offline events</a></li><li><a href=\"http://syddev.com/js-html5/newSelectors\">new selectors</a></li></nav>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "jquery-centaur": {
+    "tags": "plugin jquery",
+    "link": "http://syddev.com/jquery.centaur/",
+    "title": "jquery.centaur",
+    "image": "projects/centaur.png",
+    "content": "<p>Turn the text inside any element to generate a centaur</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "jhover": {
+    "tags": "plugin jquery",
+    "link": "http://syddev.com/jHover",
+    "title": "jHover",
+    "content": "<p>A jQuery plugin to replace click events with hover events. More a proof of concept.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  },
+  "instacat": {
+    "tags": "hack apis javascript cats",
+    "link": "http://instac.at/",
+    "title": "instacat",
+    "image": "projects/instacat.png",
+    "content": "<p>Instagram + Cats = The very nexus of the internet.</p>",
+    "date": "12 April 2012 12:00:00 +0100"
+  }
+}

@@ -1,6 +1,7 @@
 <?php
 $id="sh";
-
+$title = "Sh.it";
+$description = "Who's talking sh.it about us?";
 require_once("_partials/header.php");
 ?>
 

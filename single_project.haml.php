@@ -3,8 +3,14 @@ if (!isset($slug)) {
   $slug = "calvin-harris-18-months-mobile-app";
 }
 $id = $slug;
-require("_partials/header.php");
+
 $project = get_project($slug);
+
+$title = $project->title." ".$project->subtitle;
+$description = strip_tags($project->content);
+$image = "/assets/img/".$project->image;
+
+require("_partials/header.php");
 ?>
 
     %section#single_project

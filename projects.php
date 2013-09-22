@@ -1,7 +1,9 @@
 <?php
-// exec("rm -rf build");
-// exec("mkdir build");
-// exec("mkdir build/make");
+ exec("rm -rf build/make");
+ // exec("mkdir build");
+ exec("mkdir build/make");
+
+require_once("includes/tools.php");
 
 function build_project($slug) {
     ob_start();
@@ -14,11 +16,7 @@ function build_project($slug) {
     echo $slug.".html created\n";
 }
 
-
-foreach (scandir("content/projects") as $slug) {
-    if ($slug !== "." && $slug !== "..") {
-        $slug = str_replace(".md", "", $slug);
-        build_project($slug);
-    }
+foreach (get_content("projects") as $slug => $project) {
+    build_project($slug);
 }
 

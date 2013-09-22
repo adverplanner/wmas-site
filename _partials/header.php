@@ -1,10 +1,10 @@
 <?php require_once('includes/tools.php');?>
 !!! 5
 -# Variables for social metadata and analytics
-- title = ""
-- description = ""
+- title = "<?=@$title;?> - We Make Awesome Sh"
+- description = "<?=addslashes(@$description);?>"
+- share_image = "<?=@$image;?>"
 - ga_key = "UA-XXXXX-X"
-- share_image = ""
 - url = "http://wmas.it"
 
 - project_image = "assets/img/jagskills.png"
@@ -31,9 +31,9 @@
     -# Google fonts
     %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Abel" }
 
-    %link{ rel: "stylesheet", href: "assets/css/style.css" }
+    %link{ rel: "stylesheet", href: "/assets/css/style.css" }
 
-    %script{ src: "assets/js/libs/modernizr-2.5.3.min.js" }
+    %script{ src: "/assets/js/libs/modernizr-2.5.3.min.js" }
 
     %meta{ name: "og:url", content: url }
     %meta{ name: "og:title", content: title }

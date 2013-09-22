@@ -1,0 +1,1 @@
+For Delilah's latest album, "From the roots up", Atlantic records got in touch and asked us to create a simple site to unlock a new song on each day.

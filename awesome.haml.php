@@ -1,6 +1,7 @@
 <?php
 $id="awesome";
-
+$title = "Awesome";
+$description = "Trust us, we're awesome.";
 require_once("_partials/header.php");
 ?>
 

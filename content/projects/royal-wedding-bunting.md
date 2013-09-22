@@ -1,0 +1,1 @@
+Everyone loves bunting! We created a bunting bookmarklet in commemoration of the Royal Wedding

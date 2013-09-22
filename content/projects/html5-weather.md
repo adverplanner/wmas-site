@@ -1,0 +1,1 @@
+Playing around with HTML5 canvas. Created a site that takes your current location and gathers weather information, then displays it in an animated HTML5 canvas.
