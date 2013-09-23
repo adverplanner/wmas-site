@@ -1,5 +1,19 @@
 <?php
- exec("mkdir build/content/make");
+
+
+$dir = scandir(".");
+foreach ($dir as $folder) {
+    if (strpos($folder, ".haml.php") > -1) {
+        $file = str_replace(".haml.php", "", $folder);
+        echo "Building $file\n";
+        exec("php $file.haml.php > $file.haml");
+        exec("haml $file.haml  build/content/$file.html");
+        exec("rm $file.haml");
+    }
+}
+
+
+exec("mkdir build/content/make");
 
 require_once("includes/tools.php");
 

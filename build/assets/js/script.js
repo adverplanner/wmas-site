@@ -71,7 +71,7 @@ fetchPage = function(url) {
   var newID = url.split("/")[1];
   var currentSection = $("body").find("#content");
   $("body").addClass("loading");
-  var delay = 1500;
+  var delay = 700;
   if (newID === "make" && $("body").attr("id") === "make")
     delay = 0;
 
@@ -84,7 +84,7 @@ fetchPage = function(url) {
       setTimeout(function() {
         $("body").removeClass("loading");
       },1);
-    }, 1000);
+    });
 
   }, delay);
 
