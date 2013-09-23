@@ -4,30 +4,21 @@ $ gem install watchr
 $ gem install compass
 $ gem install haml
 
-# Building
+# Building while developing
 
 $ compass watch
 $ watchr watchr.rb
 
-## Build projects
-$ php projects.php
+## Build site
+$ make
 
-# An Awesome Boilerplate
-
-This is a mix of so many different things...
-
-Make sure the following is completed before launch
-
-## EXTRAS
-
-There are extra files under extras for a production ready site, please move these to ./
+# Test site
+Point MAMP (or similar) to ./build/index.php
 
 ## LAUNCH LIST
 
 * browser testing
 * favicon
 * apple-touch-icons
-* fb og data
-* twitter card data
 * google analytics
 * blog post queued
