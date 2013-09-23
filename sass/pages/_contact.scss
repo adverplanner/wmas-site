@@ -29,3 +29,9 @@ a.contact-method {
     display:none;
   }
 }
+
+@media(max-width:1020px) {
+  a.contact-method {
+    font-size:2em;
+  }
+}

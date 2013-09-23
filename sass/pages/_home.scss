@@ -70,3 +70,16 @@
 
   }
 }
+
+@media(max-width:650px) {
+  section.main-featured-project {
+    position:relative;
+    height:300px;
+    left:auto;
+    right:auto;
+    bottom:auto;
+    top:auto;
+    margin:0;
+    padding:0;
+  }
+}

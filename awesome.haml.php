@@ -13,13 +13,13 @@ require_once("_partials/header.php");
 
         %ul.principles
           %li
-            %img{ src: "http://placekitten.com/189/240"}
+            %img{ src: "<?=$base_url;?>assets/img/playground.gif"}
             %p The digital world is there to be played with. The web is our playground. APIs and code are our swings.
           %li
-            %img{ src: "http://placekitten.com/189/240"}
+            %img{ src: "<?=$base_url;?>assets/img/specialists.gif"}
             %p We're not a traditional agency. So we won't ever behave like one. We’re an agile collective of specialists. Honest. Hard working. And driven by delivering you awesome sh.
           %li
-            %img{ src: "http://placekitten.com/189/240"}
+            %img{ src: "<?=$base_url;?>assets/img/feel_awesome.gif"}
             %p We do it because we enjoy it. Making clients look awesome makes us feel awesome.
 
         %p We’ve also worked with some awesome people:

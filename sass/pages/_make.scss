@@ -48,3 +48,46 @@ li.case-study {
 
   }
 }
+
+@media(max-width:990px) {
+  .grid li.case-study {
+    width:50%;
+
+    &:nth-child(n+3) {
+      width:33.333333333%;
+    }
+    &:nth-child(n+6) {
+      width:25%;
+    }
+  }
+}
+
+@media(max-width:950px) {
+  .grid li.case-study {
+    width:50%;
+
+    &:nth-child(n+3) {
+      width:33.333333333%;
+    }
+  }
+}
+
+@media(max-width:770px) {
+  .grid li.case-study {
+    width:100%;
+
+    &:nth-child(n+3) {
+      width:50%;
+    }
+  }
+}
+
+
+@media(max-width:650px) {
+  .grid li.case-study {
+    width:100%;
+    &:nth-child(n+3) {
+      width:50%;
+    }
+  }
+}

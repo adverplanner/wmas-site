@@ -52,3 +52,31 @@
     }
   }
 }
+
+@media(max-width:1000px) {
+  .grid.press li {
+    width:20%;
+  }
+  .grid.awards li {
+    width:50%;
+  }
+}
+
+@media(max-width:780px) {
+  .grid.press li {
+    width:33.3333333333%;
+  }
+  .grid.awards li {
+    width:100%;
+  }
+}
+
+@media(max-width:650px) {
+  .grid.press li {
+    width:25%;
+  }
+  .grid.awards li {
+    width:50%;
+    font-size:8px;
+  }
+}

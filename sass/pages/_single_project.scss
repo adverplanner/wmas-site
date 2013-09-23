@@ -95,3 +95,36 @@
     }
   }
 }
+
+@media(max-width:950px) {
+  #single_project {
+    #title_section, #image_section {
+      width:100%;
+    }
+    #title_section {
+      border-right:none;
+      border-bottom:1px solid #fff;
+      .stretch {
+        display:none;
+      }
+    }
+    #image_section {
+      border-bottom:1px solid #fff;
+    }
+  }
+}
+
+@media(max-width:650px) {
+  #single_project {
+    #title_section {
+      font-size:0.7em;
+      min-height:0px;
+      .content {
+        position:static;
+      }
+    }
+    #view_project {
+      position: static;
+    }
+  }
+}

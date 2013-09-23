@@ -1,4 +1,6 @@
 <?php $base_url = "/"; ?>
+<?php //$base_url = "/new_site/";
+?>
 
 <?php require_once('includes/tools.php');?>
 !!! 5
