@@ -29,8 +29,8 @@ require_once("_partials/header.php");
           <?php foreach (get_content("clients") as $client) { ?>
 
           %li.client
-            %a.image{ href: "/make/category/<?= $client; ?>"}
-            .img{ style: "background-image:url(/assets/img/clients/<?= $client;?>.png)"}
+            %a.image{ href: "<?=$base_url;?>make/category/<?= $client; ?>"}
+            .img{ style: "background-image:url(<?=$base_url;?>assets/img/clients/<?= $client;?>.png)"}
 
           <?php } ?>
 

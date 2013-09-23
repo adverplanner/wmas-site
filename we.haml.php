@@ -13,7 +13,7 @@ require_once("_partials/header.php");
           <?php foreach (get_content("people") as $person) { ?>
 
           %li.person
-            %img{ src: "/assets/img/avatars/<?= $person->image; ?>" }
+            %img{ src: "<?=$base_url;?>assets/img/avatars/<?= $person->image; ?>" }
             %h5
               %strong <?= $person->name; ?> <br/>
               %a.username{ href: "http://twitter.com/<?= $person->handle; ?>" } @<?= $person->handle; ?>

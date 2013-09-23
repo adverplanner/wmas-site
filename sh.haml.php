@@ -19,7 +19,7 @@ require_once("_partials/header.php");
 
           %li
             .image
-            .img{ style: "background-image:url(/assets/img/press/<?= $outlet->img;?>)"}
+            .img{ style: "background-image:url(<?=$base_url;?>assets/img/press/<?= $outlet->img;?>)"}
 
           <?php } ?>
 
@@ -31,7 +31,7 @@ require_once("_partials/header.php");
 
           %li
             .image
-            .img{ style: "background-image:url(/assets/img/awards/<?= $award->image;?>)"}
+            .img{ style: "background-image:url(<?=$base_url;?>assets/img/awards/<?= $award->image;?>)"}
             .content
               %h4 <?= $award->title; ?>
 

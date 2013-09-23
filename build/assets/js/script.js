@@ -93,7 +93,7 @@ fetchPage = function(url) {
 
 $(document).ready(function() {
 
-  $("a").live("click", function(e) {
+  $("a:not(.toggle-categories)").live("click", function(e) {
     $("body").removeClass("browse-categories");
     var href = $(this).attr("href");
     if (href.indexOf("http") > -1) {

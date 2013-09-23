@@ -1,3 +1,5 @@
+<?php $base_url = "/new_site/"; ?>
+
 <?php require_once('includes/tools.php');?>
 !!! 5
 -# Variables for social metadata and analytics
@@ -7,7 +9,7 @@
 - ga_key = "UA-XXXXX-X"
 - url = "http://wmas.it"
 
-- project_image = "assets/img/jagskills.png"
+- project_image = "<?=$base_url;?>assets/img/jagskills.png"
 - project_title = "Jaguar Skills"
 - project_subtitle = "Browser Game"
 
@@ -15,6 +17,8 @@
 %html.no-js{ lang: "en" }
   %head
     %meta{ charset: "utf-8" }
+
+    %base{ href:"<?=$base_url;?>" }
 
     -#
       Use the .htaccess and remove these lines to avoid edge case issues.
@@ -31,9 +35,9 @@
     -# Google fonts
     %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Abel" }
 
-    %link{ rel: "stylesheet", href: "/assets/css/style.css" }
+    %link{ rel: "stylesheet", href: "<?=$base_url;?>assets/css/style.css" }
 
-    %script{ src: "/assets/js/libs/modernizr-2.5.3.min.js" }
+    %script{ src: "<?=$base_url;?>assets/js/libs/modernizr-2.5.3.min.js" }
 
     %meta{ name: "og:url", content: url }
     %meta{ name: "og:title", content: title }
@@ -51,19 +55,20 @@
     %meta{ name: "twitter:creator", content: "wemakeawesomesh" }
 
 
+
   %body#<?= $id; ?>
 
     %header#header
       %nav#main_nav
         %ul
           %li
-            %a{ href: "/we", title: ""} We
+            %a{ href: "<?=$base_url;?>we", title: ""} We
           %li
-            %a{ href: "/make", title: ""} Make
+            %a{ href: "<?=$base_url;?>make", title: ""} Make
           %li
-            %a{ href: "/awesome", title: ""} Awesome
+            %a{ href: "<?=$base_url;?>awesome", title: ""} Awesome
           %li
-            %a{ href: "/sh", title: ""} Sh.it
+            %a{ href: "<?=$base_url;?>sh", title: ""} Sh.it
 
       %nav#categories
         %ul
@@ -76,7 +81,7 @@
           <?php foreach(get_tags() as $tag) { ?>
 
           %li
-            %a.block{ href: "/make/category/<?=urlencode($tag);?>"} <?=$tag;?>
+            %a.block{ href: "<?=$base_url;?>make/category/<?=urlencode($tag);?>"} <?=$tag;?>
 
           <?php } ?>
 

@@ -4,29 +4,29 @@
       %nav
         %ul
           %li
-            %a{ href: "", title: ""}
+            %a{ href: "http://wemakeawesomesh.tumblr.com", title: "Read our Blog"}
               %span.icon.blog
               Read our blog
           %li
-            %a{ href: "", title: ""}
+            %a{ href: "http://fb.com/wemakeawesomesh", title: "Like us on facebook"}
               %span.icon.facebook
               Like us on Facebook
           %li
-            %a{ href: "", title: ""}
+            %a{ href: "http://twitter.com/wemakeawesomesh", title: "Follow us on Twitter"}
               %span.icon.twitter
               Follow us on Twitter
           %li
-            %a{ href: "", title: ""}
+            %a{ href: "/contact", title: "Contact us"}
               %span.icon.contact
               Get in touch
 
 
 
     -#
-    %script{ src: "/assets/js/libs/jquery-1.7.1.min.js" }
+    %script{ src: "<?=$base_url;?>assets/js/libs/jquery-1.7.1.min.js" }
     -# scripts concatenated and minified via build script
-    %script{ src: "/assets/js/plugins.js" }
-    %script{ src: "/assets/js/script.js" }
+    %script{ src: "<?=$base_url;?>assets/js/plugins.js" }
+    %script{ src: "<?=$base_url;?>assets/js/script.js" }
     -# end scripts
 
     -#

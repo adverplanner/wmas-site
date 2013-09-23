@@ -16,9 +16,9 @@ require_once("_partials/header.php");
           ?>
 
           %li.case-study{ data:{tags: "<?= $project->tags; ?>" } }
-            %a.image{ href: "/make/<?= $project->slug ?>"}
-            %a{ href: "/make/<?= $project->slug ?>" }
-              .img{ style: "background-image:url(/assets/img/<?= $project->image;?>)"}
+            %a.image{ href: "<?=$base_url;?>make/<?= $project->slug ?>"}
+            %a{ href: "<?=$base_url;?>make/<?= $project->slug ?>" }
+              .img{ style: "background-image:url(<?=$base_url;?>assets/img/<?= $project->image;?>)"}
               .info
                 %h4.title <?= $project->title; ?>
                 <?php if (isset($project->subtitle)) { ?>
