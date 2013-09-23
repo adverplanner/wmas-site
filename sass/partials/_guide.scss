@@ -24,7 +24,7 @@ body {
   font-family:'Open Sans', arial, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 @mixin normal_font {
@@ -66,6 +66,9 @@ h1 {
   margin:0;
   margin-bottom:0.5em;
   line-height:0.8em;
+  span {
+    color:#666;
+  }
 }
 
 h2 {
@@ -109,12 +112,14 @@ p a:hover {
 .block, a.block {
   background-color: #1a1a1a;
   padding: 10px 20px;
+  display:inline-block;
   color: #fff;
   text-decoration: none;
+  white-space: nowrap;
   font-size:1em;
 }
 
-.block:hover {
+a.block:hover {
   background-color: #555;
 }
 

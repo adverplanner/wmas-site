@@ -64,8 +64,20 @@
             %a{ href: "/awesome", title: ""} Awesome
           %li
             %a{ href: "/sh", title: ""} Sh.it
+
       %nav#categories
         %ul
           %li
-            %a.block{ href: "#"} Show projects by category
+            %a.block.toggle-categories{ href: "#"} Show projects by category
 
+      %nav#category_browse
+        %ul
+
+          <?php foreach(get_tags() as $tag) { ?>
+
+          %li
+            %a.block{ href: "/make/category/<?=urlencode($tag);?>"} <?=$tag;?>
+
+          <?php } ?>
+
+    #content

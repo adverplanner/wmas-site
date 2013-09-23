@@ -1,5 +1,4 @@
 #single_project {
-  padding-top:$padding*3;
   #title_section, #image_section {
     width:50%;
     display:block;
@@ -10,7 +9,6 @@
     .stretch:before{content:"";display:block;margin-top:100%;}
   }
   #title_section {
-    font-size:11px;
     border-right:1px solid #fff;
     float:left;
     background:#1a1a1a;
@@ -24,7 +22,7 @@
       bottom:0;
     }
     h1 {
-      font-size:7em;
+      font-size:5em;
       margin:0;
     }
     h2 {

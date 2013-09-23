@@ -9,7 +9,7 @@
 @import "partials/forms";
 @import "partials/fonts";
 
-$padding: 20px;
+$padding: 24px;
 $sidebar_width: 200px;
 
 body, html {
@@ -22,38 +22,102 @@ body {
 	background:#fff;
 }
 
+#category_browse {
+  position:absolute;
+  padding:$padding;
+  z-index:9999;
+  top:0;
+  bottom:0;
+  right:$sidebar_width+$padding*2;
+  left:$sidebar_width+$padding*2;
+  li {
+    display:inline-block;
+    margin-bottom:0px;
+
+  }
+  a {
+    background:#fff;
+    display: inline-block;
+    float:none;
+    color:#1a1a1a;
+    font-family: 'bebas neue', arial, sans-serif;
+    font-size:1.2em;
+
+    &:hover {
+      background:#555;
+      color:#fff;
+    }
+  }
+}
+#header {
+
+}
+
+#category_browse, #header {
+  -webkit-transition:1s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition:1s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.browse-categories {
+
+  #header {
+    left:0%;
+    right:0%;
+    margin-left:-$sidebar_width - $padding*2;
+    margin-right:0;
+  }
+
+}
+
 section {
   position:absolute;
   color:#1a1a1a;
   overflow:auto;
   z-index:0;
   top:0;
-	left:$sidebar_width + $padding * 2;
-	padding:$padding 3.5 * $padding;
+  left:0;
+	padding:3 * $padding;
+  margin-left:$sidebar_width + $padding * 2;:
   bottom:0;
   right:0;
   padding-bottom: $padding * 3.5;
+  transition:1s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+}
+.loading {
+  section {
+    left:100%;
+    right:-100%;
+  }
 }
 
 #header {
-	position:absolute;
+	position:fixed;
 	left:0;
 	top:0;
 	bottom:0;
-	width:$sidebar_width;
 	padding:$padding;
 	background:#1a1a1a;
-
+  z-index:999;
+  left:-100%;
+  right:100%;
+  margin-right:-$sidebar_width - $padding*2;
 	a {
 		color:#fff;
-		*:hover {
-			color:$main-color;
+		&:hover {
+			color:#555;
 		}
 	}
 
 	#categories {
+    position:absolute;
+    top:$padding;
+    right:$padding;
 		a.block {
 			font-size:1.23em;
+      &:hover {
+        background:#555;
+      }
 		}
 	}
 }
@@ -62,6 +126,7 @@ section {
 	font-size:4.7em;
 	position:absolute;
 	bottom:$padding;
+  right:$padding;
 	li {
 		margin:0;
 		padding:0;
@@ -74,7 +139,7 @@ section {
 
 
 #footer {
-	position:absolute;
+	position:fixed;
 	background:#fff;
 	bottom:0;
 	right:0;
@@ -179,3 +244,4 @@ section {
 @import "pages/awesome";
 @import "pages/sh";
 @import "pages/single_project";
+@import "pages/contact";

@@ -16,6 +16,18 @@ function set_default($obj, $key, $value) {
   return $obj;
 }
 
+function get_tags() {
+  $tags = array();
+  foreach(get_content("projects") as $project) {
+    $t = explode(" ", $project->tags);
+    foreach ($t as $tag) {
+      $tags[$tag] = $tag;
+    }
+  }
+  ksort($tags);
+  return $tags;
+}
+
 function get_project($slug) {
   $projects = get_content("projects");
   $project = $projects->$slug;

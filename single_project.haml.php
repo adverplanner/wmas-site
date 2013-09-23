@@ -13,32 +13,32 @@ $image = "/assets/img/".$project->image;
 require("_partials/header.php");
 ?>
 
-    %section#single_project
-      %a#back{ href: "/make" } Back To Projects
-      #title_section
-        .stretch
-        .content
-          %h1 <?= $project->title; ?>
+      %section#single_project
+        %a#back{ href: "/make" } Back To Projects
+        #title_section
+          .stretch
+          .content
+            %h1 <?= $project->title; ?>
 
-          <?php if (isset($project->subtitle)) { ?>
+            <?php if (isset($project->subtitle)) { ?>
 
-          %h2 <?= @$project->subtitle; ?>
+            %h2 <?= @$project->subtitle; ?>
+
+            <?php } ?>
+
+            %a.block#view_project{ href: "<?= $project->link; ?>" } View Project
+        #image_section
+          .stretch
+          .img{ style: "background-image:url(/assets/img/<?= $project->image; ?>)" }
+        %ul.tags.clearfix
+          <?php foreach (explode(" ",$project->tags) as $tag) {?>
+
+          %li.tag
+            %a.block{ href: "/make/category/<?= urlencode($tag);?>" } <?= $tag; ?>
 
           <?php } ?>
 
-          %a.block#view_project{ href: "<?= $project->link; ?>" } View Project
-      #image_section
-        .stretch
-        .img{ style: "background-image:url(/assets/img/<?= $project->image; ?>)" }
-      %ul.tags.clearfix
-        <?php foreach (explode(" ",$project->tags) as $tag) {?>
-
-        %li.tag
-          %a.block{ href: "/make/<?= urlencode($tag);?>" } <?= $tag; ?>
-
-        <?php } ?>
-
-      <?= $project->content; ?>
+        <?= $project->content; ?>
 
 
 
