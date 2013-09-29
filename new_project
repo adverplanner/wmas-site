@@ -45,12 +45,16 @@ $old_projects = json_decode(file_get_contents("content/projects.json"));
 foreach ($old_projects as $key => $value) {
   $projects[$key] = $value;
 }
-echo "Building the projects file: content/projects.json";
+echo "Building the projects file: content/projects.json\n";
 file_put_contents("content/projects.json", json_encode($projects));
 $markdown = "content/projects/".$slug.".md";
-echo "Building the case study markdown file: ".$markdown;
-
+echo "Building the case study markdown file: ".$markdown."\n";
 file_put_contents($markdown, "This is a sample case study\n".$markdown);
+
 exec("open ".$markdown);
-echo "DONE!\nNow please transfer the image to build/assets/img/".$data['image']."\n";
+
+echo "Creating the image: build/assets/img/".$data['image']."\n";
+exec("cp build/assets/img/projects/50shades.png build/assets/img/".$data['image']);
+exec("open build/assets/img/".$data['image']);
+echo "DONE!\n";
 
