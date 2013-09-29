@@ -20,8 +20,6 @@ require_once("_partials/header.php");
 
           <?php } ?>
 
-        %h2 Cardiff &bull; Halo &bull; Cats
-
         <?= get_markdown('we'); ?>
 
 <?php require_once("_partials/footer.php"); ?>

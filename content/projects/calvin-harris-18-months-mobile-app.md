@@ -6,4 +6,4 @@ Our suggestion? Let's give it away... sort of.
 
 So grab the app and you can listen to the whole album for free, so long as you're prepared to dance for it!
 
-**iOS:** <a href='http://bit.ly/18monthsiOS'>http://bit.ly/18monthsiOS</a> &nbsp; **Android:** <a href='http://bit.ly/18monthsAndroid'>http://bit.ly/18monthsAndroid</a>
+**iOS:** [http://bit.ly/18monthsiOS](http://bit.ly/18monthsiOS) &nbsp; **Android:** [http://bit.ly/18monthsAndroid](http://bit.ly/18monthsAndroid)

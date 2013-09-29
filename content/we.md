@@ -1,3 +1,5 @@
+## Cardiff &bull; Halo &bull; Cats
+
 Yep, it's not often that you see those three words next to each other. Even rarer when it's on an agency website. But then we're not about the ordinary. In fact, we're not really an agency. We're a collective. We're about the awesome. And Cardiff, Halo and Cats are all, we hope you'll agree, pretty bloody awesome.
 
 We Make Awesome Sh was founded by Tom Gibby and Syd Lawrence. Tom and Syd met at Cardiff university through a shared love of all things gaming, geek and tech. We joked about one day starting our own company, little did we know that one final unexpected element would spark this opportunity – cats.

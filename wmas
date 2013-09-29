@@ -1,0 +1,257 @@
+#!/usr/bin/php
+<?php
+
+$menu = array(
+  "1" => "We",
+  "2" => "Make",
+  "3" => "Awesome",
+  "4" => "Sh.it",
+  "a" => false,
+  "5" => "Blog",
+  "6" => "Contact",
+  "b" => false,
+  "7" => "IRC",
+  "8" => "Git",
+  "9" => "Wiki"
+);
+
+$shortcuts = array(
+  "7" => "open https://www.irccloud.com/#!/ircs://irc.freenode.net:6697/%23wmas",
+  "8" => "open http://git.wmas.it",
+  "9" => "open http://wiki.wemakeawesomesh.it"
+);
+
+$method = $argv[1];
+foreach($menu as $key => $val) {
+  if (strtolower($val) === strtolower($method)) {
+    if (isset($shortcuts[$key])) {
+      exec($shortcuts[$key]);
+      exit;
+    }
+  }
+}
+
+require_once('includes/tools.php');
+function get_input() {
+  $handle = fopen ("php://stdin","r");
+  return trim(fgets($handle));
+}
+function echo_line($str, $foreground = "light_gray", $background = "black") {
+  $colors = new Colors();
+  echo $colors->getColoredString($str,$foreground, $background)."\n";
+}
+class Colors {
+    private $foreground_colors = array();
+    private $background_colors = array();
+
+    public function __construct() {
+      // Set up shell colors
+      $this->foreground_colors['black'] = '0;30';
+      $this->foreground_colors['dark_gray'] = '1;30';
+      $this->foreground_colors['blue'] = '0;34';
+      $this->foreground_colors['light_blue'] = '1;34';
+      $this->foreground_colors['green'] = '0;32';
+      $this->foreground_colors['light_green'] = '1;32';
+      $this->foreground_colors['cyan'] = '0;36';
+      $this->foreground_colors['light_cyan'] = '1;36';
+      $this->foreground_colors['red'] = '0;31';
+      $this->foreground_colors['light_red'] = '1;31';
+      $this->foreground_colors['purple'] = '0;35';
+      $this->foreground_colors['light_purple'] = '1;35';
+      $this->foreground_colors['brown'] = '0;33';
+      $this->foreground_colors['yellow'] = '1;33';
+      $this->foreground_colors['light_gray'] = '0;37';
+      $this->foreground_colors['white'] = '1;37';
+
+      $this->background_colors['black'] = '40';
+      $this->background_colors['red'] = '41';
+      $this->background_colors['green'] = '42';
+      $this->background_colors['yellow'] = '43';
+      $this->background_colors['blue'] = '44';
+      $this->background_colors['magenta'] = '45';
+      $this->background_colors['cyan'] = '46';
+      $this->background_colors['light_gray'] = '47';
+    }
+
+    // Returns colored string
+    public function getColoredString($string, $foreground_color = null, $background_color = null) {
+      $colored_string = "";
+      // Check if given foreground color found
+      if (isset($this->foreground_colors[$foreground_color])) {
+        $colored_string .= "\033[" . $this->foreground_colors[$foreground_color] . "m";
+      }
+      // Check if given background color found
+      if (isset($this->background_colors[$background_color])) {
+        $colored_string .= "\033[" . $this->background_colors[$background_color] . "m";
+      }
+
+      // Add string and end coloring
+      $colored_string .=  $string . "\033[0m";
+
+      return $colored_string;
+    }
+
+    // Returns all foreground color names
+    public function getForegroundColors() {
+      return array_keys($this->foreground_colors);
+    }
+
+    // Returns all background color names
+    public function getBackgroundColors() {
+      return array_keys($this->background_colors);
+    }
+  }
+function ascii_art($file) {
+  $img = imagecreatefromstring(file_get_contents($file));
+  list($width, $height) = getimagesize($file);
+
+  $scale = 10;
+
+  $chars = array(
+    ' ', '\'', '.', ':',
+    '|', 'T',  'X', '0',
+    '#',
+  );
+
+  $chars = array_reverse($chars);
+
+  $c_count = count($chars);
+
+  for($y = 0; $y <= $height - $scale - 1; $y += $scale) {
+    for($x = 0; $x <= $width - ($scale / 2) - 1; $x += ($scale / 2)) {
+      $rgb = imagecolorat($img, $x, $y);
+      $r = (($rgb >> 16) & 0xFF);
+      $g = (($rgb >> 8) & 0xFF);
+      $b = ($rgb & 0xFF);
+      $sat = ($r + $g + $b) / (255 * 3);
+      echo $chars[ (int)( $sat * ($c_count - 1) ) ];
+    }
+    echo PHP_EOL;
+  }
+}
+
+
+echo_line("What would you like to do?", "light_red", null);
+
+
+
+function display_column($str, $count, $foreground = null, $background = null) {
+  $colors = new Colors();
+  $line_width = 100;
+  $col_padding = 4;
+  $char_length = $line_width / $count;
+  $max_char_length = $char_length - $col_padding;
+  $display_string = "";
+  for ($i = 0; $i < $max_char_length;$i++) {
+    if (isset($str[$i])) $display_string .= $str[$i];
+    else $display_string .= " ";
+  }
+  for ($i = 0; $i < $col_padding; $i++) {
+    $display_string .= " ";
+  }
+  echo $colors->getColoredString($display_string, $foreground, $background);
+}
+
+
+function display_menu() {
+
+  global $menu;
+  $options = $menu;
+  foreach ($options as $key => $value) {
+    if ($value === false) echo "\n";
+    else echo_line("$key) $value", "white", null);
+  }
+  echo "\n";
+  while (true) {
+    echo echo_line( "Enter your choice here: (e.g. 1) ", "light_red", null);
+
+    $option = get_input();
+    if (trim($option) === "" || !isset($options[$option])) {
+      echo echo_line("ERROR: $option is not valid", "black", "red");
+      echo echo_line("You need to enter an available option", "black", "red");
+    } else break;
+  }
+  echo echo_line( "You selected ".$options[$option]."\n\n", "light_green", null);
+  return $option;
+}
+
+
+function respond($response) {
+  global $menu;
+  global $shortcuts;
+  switch($response) {
+    case "1":
+      echo "\n".file_get_contents("content/we.md")."\n";
+      break;
+    case "2":
+      $count = 0;
+      $projects = get_content("projects");
+      $slugs = array();
+      foreach ($projects as $slug => $project) {
+        $slugs[] = $slug;
+        display_column(($count+1).") ".$project->title,3, "light_blue", null);
+        $count++;
+        if ($count%3 === 0) echo "\n";
+      }
+      echo "\n";
+      echo echo_line( "Which project: (e.g. 1) ", "light_red", null);
+      while (true) {
+        $option = get_input();
+        if (trim($option) === "" || !isset($projects->$slugs[$option])) {
+          echo echo_line("ERROR: $option is not valid", "black", "red");
+          echo echo_line("You need to enter an available option", "black", "red");
+        } else break;
+      }
+
+      $project = get_project($slugs[$option]);
+      echo_line($project->title);
+      if ($project->subtitle)
+        echo_line($project->subtitle);
+      echo_line($project->tags);
+      echo_line("");
+      if ($project->url) {
+        echo_line($project->url);
+        echo_line("");
+      }
+      echo_line("Display image here");
+      ascii_art("build/assets/img/".$project->image);
+      if (file_exists("content/projects/".$slugs[$option].".md"))
+        echo "\n".file_get_contents("content/projects/".$slugs[$option].".md")."\n";
+      else
+        echo $option->content;
+      break;
+    case "3":
+      echo "Show clients";
+      break;
+    case "4":
+      echo "Press responses";
+      break;
+    case "5":
+      exec("open http://wemakeawesomesh.tumblr.com");
+      break;
+    case "6":
+      exec("open mailto:fuckers@wemakeawesomesh.it");
+      echo "✉    fuckers@wemakeawesomesh.it\n";
+      echo "URL: http://wemakeawesomesh.it\n";
+      echo "T:   @wemakeawesomesh\n";
+      echo "F:   fb.com/wemakeawesomesh\n";
+      break;
+
+    default:
+      exec($shortcuts[$response]);
+      break;
+  }
+}
+
+
+while(true) {
+  $response = display_menu();
+  respond($response);
+  echo "\n";
+  echo "\n";
+  echo echo_line( "Would you like to continue? (Y/N)", "light_red", null);
+  $option = get_input();
+  if (strpos(strtolower($option), "y") === false) {
+    exit;
+  }
+}
