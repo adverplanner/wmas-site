@@ -1883,33 +1883,58 @@ a.contact-method {
 /* line 12, ../../../sass/pages/_contact.scss */
 a.contact-method .swearing, a.contact-method .no-swearing {
   display: inline-block;
-  width: 0.5em;
+  width: 0.44em;
+  color: inherit;
   margin: 0;
   padding: 0;
   text-align: center;
+  -webkit-transition: 500ms all;
+  transition: 500ms all;
+}
+/* line 22, ../../../sass/pages/_contact.scss */
+a.contact-method .swearing {
+  position: absolute;
 }
 
-/* line 23, ../../../sass/pages/_contact.scss */
+/* line 28, ../../../sass/pages/_contact.scss */
 .contact-section {
   margin-bottom: 4em;
 }
-/* line 25, ../../../sass/pages/_contact.scss */
+/* line 30, ../../../sass/pages/_contact.scss */
 .contact-section p {
   margin-bottom: 0em;
 }
 
-/* line 30, ../../../sass/pages/_contact.scss */
-.has-swearing .no-swearing, .has-swearing a .no-swearing {
+/* line 35, ../../../sass/pages/_contact.scss */
+.has-swearing .no-swearing {
   display: none;
 }
 
-/* line 35, ../../../sass/pages/_contact.scss */
-.has-no-swearing .swearing, .has-no-swearing a .swearing {
+/* line 40, ../../../sass/pages/_contact.scss */
+.has-no-swearing .swearing {
   display: none;
+}
+
+/* line 46, ../../../sass/pages/_contact.scss */
+.has-swearing a.contact-method .no-swearing {
+  -webkit-transform: translateZ(-100px) translateY(-0.5em) rotateX(90deg);
+}
+/* line 49, ../../../sass/pages/_contact.scss */
+.has-swearing a.contact-method .swearing {
+  -webkit-transform: translateZ(0px) rotateX(0deg);
+}
+
+/* line 54, ../../../sass/pages/_contact.scss */
+.has-no-swearing a.contact-method .swearing {
+  -webkit-transform: translateZ(100px) translateY(0.5em) rotateX(-90deg);
+}
+/* line 57, ../../../sass/pages/_contact.scss */
+.has-no-swearing a.contact-method .no-swearing {
+  -webkit-transform: translateZ(0px) rotateX(0deg);
 }
 
 @media (max-width: 1020px) {
-  /* line 41, ../../../sass/pages/_contact.scss */
+  /* line 63, ../../../sass/pages/_contact.scss */
   a.contact-method {
     font-size: 2em;
   }

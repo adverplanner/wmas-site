@@ -14,7 +14,7 @@ require_once("_partials/header.php");
           %p
             %span.no-swearing If you don't enjoy swearing, email us here:<br/>
             %span.swearing If you enjoy swearing, email us here:<br/>
-            %a.contact-method{ href: "mailto:f.ckers@wemakeawesomesh.it"} f<span class='swearing'>u</span><span class='no-swearing'>.</span>ckers@wemakeawesomesh.it
+            %a.contact-method{ href: "mailto:fuckers@wemakeawesomesh.it"} f<span class='swearing'>u</span><span class='no-swearing'>.</span>ckers@wemakeawesomesh.it
 
           %p.no-swearing
             %a.swear-switcher{ data:{swearing:"true"}, href:"#" } Enjoy swearing?

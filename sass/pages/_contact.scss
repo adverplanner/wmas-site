@@ -11,11 +11,16 @@ a.contact-method {
 
   .swearing, .no-swearing {
     display:inline-block;
-    width:0.5em;
-
+    width:0.44em;
+    color:inherit;
     margin:0;
     padding:0;
     text-align: center;
+    -webkit-transition:500ms all;
+    transition:500ms all;
+  }
+  .swearing {
+    position:absolute;
   }
 }
 
@@ -27,13 +32,30 @@ a.contact-method {
   }
 }
 .has-swearing {
-  .no-swearing, a .no-swearing {
+  .no-swearing {
     display:none;
   }
 }
 .has-no-swearing {
-  .swearing, a .swearing {
+  .swearing {
     display:none;
+  }
+}
+
+.has-swearing a.contact-method{
+  .no-swearing {
+    -webkit-transform: translateZ( -100px ) translateY( -0.5em ) rotateX(   90deg );
+  }
+  .swearing {
+    -webkit-transform: translateZ( 0px ) rotateX(   0deg );
+  }
+}
+.has-no-swearing a.contact-method {
+  .swearing {
+    -webkit-transform: translateZ( 100px ) translateY( 0.5em ) rotateX(   -90deg );
+  }
+  .no-swearing {
+    -webkit-transform: translateZ( 0px ) rotateX(   0deg );
   }
 }
 

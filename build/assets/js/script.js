@@ -18,8 +18,11 @@ $(window).on("popstate",function(e){
 switchSwearing = function(swearing) {
   storage.set("swearing", swearing);
   if (swearing === "no") {
+    $('a.contact-method[href="mailto:fuckers@wemakeawesomesh.it"]').attr("href", "mailto:f.ckers@wemakeawesomesh.it");
     $("body").removeClass("has-swearing").addClass("has-no-swearing");
   } else {
+    $('a.contact-method[href="mailto:f.ckers@wemakeawesomesh.it"]').attr("href", "mailto:fuckers@wemakeawesomesh.it");
+
     $("body").removeClass("has-no-swearing").addClass("has-swearing");
   }
 };
@@ -44,6 +47,7 @@ pageReady = function(id) {
   switch (id) {
     case "make":
       var pathname = window.location.pathname;
+      pathname = pathname.replace("/new_site","");
       var path = pathname.split("/");
       if (path.length > 2) {
         show_tag(path[3]);
@@ -89,6 +93,8 @@ show_404_page = function() {
 }
 
 fetchPage = function(url, fromPop) {
+   url = url.replace("/new_site","");
+
   if (url === "#") return;
   var newID = url.split("/")[1];
   if (newID === "") {
