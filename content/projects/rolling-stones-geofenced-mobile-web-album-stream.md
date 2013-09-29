@@ -1,0 +1,5 @@
+Polydor approached us to help with the launch of the **Rolling Stones** Greatest Hits album 'Grrr'. For the launch of the album they were holding a pop up shop in the centre of Carnaby Street. Inside the pop up shop you could buy the album and countless other products such as posters, hoodies, t-shirts and other merch.
+
+Polydor wanted to allow fans to listen to the album while they were shopping, not only in the pop up shop, but also near by it. If a fan visited the main Rolling Stones site, and they were accessing it from a mobile device, and within 1 mile of the store, they were redirected to a custom made mobile web site allowing them to pick and choose which song they wanted to listen to on the album.
+
+We also created an image feed for use on both the main Rolling Stones website and also the Carnaby Street website, as they had a competition to get fans to submit photos using the various social networks. For the image feed we used the [Awesome Wall](http://awesomewall.wemakeawesomesh.it)</a>

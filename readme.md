@@ -9,10 +9,14 @@ $ gem install haml
 $ compass watch
 $ watchr watchr.rb
 
+## Add a new project
+
+$ ./new_project
+
 ## Build site
 $ make
 
-# Test site
+# Testing site locally
 Point MAMP (or similar) to ./build/index.php
 
 ## LAUNCH LIST

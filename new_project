@@ -1,0 +1,56 @@
+#!/usr/bin/php
+<?php
+
+function get_input() {
+  $handle = fopen ("php://stdin","r");
+  return fgets($handle);
+}
+$data = array(
+  "title" => "",
+  "subtitle" => "",
+  "slug" => "",
+  "tags" => "",
+  "link" => "",
+  "date" => ""
+);
+
+echo "You are creating a new project\n";
+foreach($data as $key => $value) {
+  $error = false;
+  while(true) {
+    if ($error) echo "ERROR: ";
+    echo "Enter the ".$key.":\n";
+    $data[$key] = trim(get_input());
+    // if ($data[$key] === "" || !$data[$key])
+    //   $error = true;
+    // else
+      break;
+  }
+}
+echo "====\n";
+
+$slug = str_replace(" ","+",$data['slug']);
+
+
+$data['image'] = "projects/".$slug.".png";
+
+unset($data['slug']);
+
+$projects = array();
+$projects[$slug] = $data;
+
+echo str_replace("}","\n}",str_replace(",",",\n  ",str_replace("{","{\n  ",json_encode($projects))))."\n";
+
+$old_projects = json_decode(file_get_contents("content/projects.json"));
+foreach ($old_projects as $key => $value) {
+  $projects[$key] = $value;
+}
+echo "Building the projects file: content/projects.json";
+file_put_contents("content/projects.json", json_encode($projects));
+$markdown = "content/projects/".$slug.".md";
+echo "Building the case study markdown file: ".$markdown;
+
+file_put_contents($markdown, "This is a sample case study\n".$markdown);
+exec("open ".$markdown);
+echo "DONE!\nNow please transfer the image to build/assets/img/".$data['image']."\n";
+
