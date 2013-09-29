@@ -1,6 +1,6 @@
 <?php
 $id="home";
-$title = "WMAS";
+$title = "We Made This";
 $description = "It's what we do.";
 
 

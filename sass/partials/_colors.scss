@@ -1,0 +1,183 @@
+@mixin colors($light, $dark, $grey) {
+
+  a, a:visited {
+    color:$dark;
+    &:hover {
+      color:$dark;
+    }
+  }
+
+  #error, video {
+    background:$dark;
+  }
+
+  body
+  , #category_browse a
+  , #footer
+  {
+    background:$light;
+  }
+  #category_browse a:hover, #header a, #home #footer a, #home #footer a:hover {
+    color:$light;
+  }
+
+  #category_browse a:hover #categories a.block:hover {
+    background:$grey;
+  }
+
+  a.contact-method span, #header a:hover {
+      color:$grey;
+  }
+
+  .grid li, #header, #home, li.case-study {
+    background:$dark;
+  }
+
+  section, #category_browse a , #footer li a{
+    color:$dark;
+  }
+
+  li.case-study, .grid li {
+    border:1px solid $light;
+  }
+
+  #back, .main-featured-project .info {
+    color:$dark;
+  }
+
+  #home #header {
+    background:rgba($dark,0.4);
+  }
+
+  #home #footer {
+    border-top:1px solid rgba($light,0.2);
+  }
+
+  #header {
+    background:rgba(darken($dark, 100%),0.90);
+  }
+
+  #footer {
+    border-top:1px solid rgba($dark,0.2);
+  }
+
+
+
+
+
+  li.case-study .info, .grid.awards .content  {
+    color:#fff;
+    @include background-image(linear-gradient(bottom,  rgba($dark,0) 0%,rgba($dark,0) 60%, rgba($dark,0) 80%, rgba($dark,0) 100%));
+  }
+  li.case-study:hover .info, .grid.awards li:hover .content {
+    color:$light;
+    @include background-image(linear-gradient(bottom,  rgba($dark,1) 0%,rgba($dark,0.85) 60%, rgba($dark,0.6) 80%, rgba($dark,0) 100%));
+  }
+
+  .coverage a {
+    border-bottom:1px solid $light;
+    background:$dark;
+    color:$light;
+    &:hover, &:visited:hover {
+      background:$grey;
+      color:$light;
+    }
+  }
+  p a {
+    color: $dark;
+    border-bottom: 1px dotted $dark;
+  }
+  p a:hover {
+    border-bottom: 1px solid $dark;
+  }
+
+
+
+  .block, a.block {
+    background-color: $dark;
+    color: $light;
+  }
+
+  a.block:hover {
+    background-color: $grey;
+  }
+
+  #header .block {
+    background-color:$light;
+    color:$dark;
+    &:hover {
+      background-color:$dark;
+      color:$light;
+
+    }
+  }
+
+
+  #project-name {
+    color:$light;
+  }
+
+
+  #single_project {
+  #title_section {
+    border-right:1px solid $light;
+    background:$dark;
+    color:$light;
+
+  }
+  .tags {
+    background:darken($light, 20);
+    .tag {
+      border-top:0px solid $light;
+      border-right:1px solid $light;
+      a {
+        color:$light;
+      }
+    }
+  }
+
+  #view_project {
+    color:$light;
+    color: $dark;
+    background-color: $light;
+    border-bottom: 5px solid lighten($grey, 20);
+    &:hover {
+      border-bottom: 5px solid $grey;
+    }
+
+  }
+}
+
+}
+
+html {
+  @include colors( #fff, #1a1a1a, #555);
+    -webkit-filter:invert(0%);
+  -webkit-transition:500ms all;
+
+}
+
+html.invert {
+  //@include colors( #fff, #1a1a1a, #555);
+  -webkit-filter:invert(100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:950px) {
+  #single_project {
+    #title_section, #image_section {
+      border-bottom:1px solid #fff;
+    }
+  }
+}

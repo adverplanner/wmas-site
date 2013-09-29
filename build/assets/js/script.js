@@ -1,11 +1,19 @@
 /* Author:
 
 */
+if (window.history.pushState === undefined) {
+  window.history.pushState = function(){};
+  window.history.replaceState = function(){};
+}
 function random_sort (thing)
 {
       return (0.5 - Math.random() );
 }
 
+$(window).on("popstate",function(e){
+  if (e.originalEvent.state)
+    fetchPage(e.originalEvent.state.current, true);
+})
 
 switchSwearing = function(swearing) {
   storage.set("swearing", swearing);
@@ -30,6 +38,9 @@ show_tag = function(tag) {
 }
 
 pageReady = function(id) {
+   $('.swear-switcher').click(function() {
+    switchSwearing($(this).data("swearing"));
+  });
   switch (id) {
     case "make":
       var pathname = window.location.pathname;
@@ -66,9 +77,23 @@ pageReady = function(id) {
   }
 }
 
-fetchPage = function(url) {
+window.history.replaceState({previous:undefined, current:window.location.pathname}, window.title, window.location.pathname);
+
+
+
+show_404_page = function() {
+
+  var BV = new $.BigVideo();
+  BV.init();
+  BV.show('http://wmasmain.s3.amazonaws.com/404.mp4');
+}
+
+fetchPage = function(url, fromPop) {
   if (url === "#") return;
   var newID = url.split("/")[1];
+  if (newID === "") {
+    newID = "home";
+  }
   var currentSection = $("body").find("#content");
   $("body").addClass("loading");
   var delay = 700;
@@ -76,13 +101,17 @@ fetchPage = function(url) {
     delay = 0;
 
   var t = setTimeout(function() {
-    window.history.pushState({}, url, url);
+
     $("#content").load(url+" #content > *", function() {
       $(window).scrollTop(0);
       $("body").attr("id",newID );
-      pageReady(newID);
       setTimeout(function() {
         $("body").removeClass("loading");
+        setTimeout(function() {
+          if (fromPop !== true)
+            window.history.pushState({previous:window.location.pathname, current:url}, url, url);
+            pageReady(newID);
+        }, 800);
       },1);
     });
 
@@ -92,6 +121,13 @@ fetchPage = function(url) {
 };
 
 $(document).ready(function() {
+
+  $(window).on("keypress", function(e) {
+    if (e.which == 105) {
+      $('html').toggleClass("invert");
+    }
+  });
+  console.log("Try pressing i, go on, just try it...");
 
   $("a:not(.toggle-categories)").live("click", function(e) {
     $("body").removeClass("browse-categories");
@@ -109,9 +145,7 @@ $(document).ready(function() {
     e.preventDefault();
   })
 
-  $('.swear-switcher').click(function() {
-    switchSwearing($(this).data("swearing"));
-  });
+
 
   pageReady($("body").attr("id"));
 

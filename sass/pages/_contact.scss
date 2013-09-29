@@ -8,10 +8,17 @@ a.contact-method {
   clear:both;
   border:1px solid transparent;
   margin-top:0.1em;
-  span {
-    color:#666666;
+
+  .swearing, .no-swearing {
+    display:inline-block;
+    width:0.5em;
+
+    margin:0;
+    padding:0;
+    text-align: center;
   }
 }
+
 
 .contact-section {
   margin-bottom:4em;
@@ -20,12 +27,12 @@ a.contact-method {
   }
 }
 .has-swearing {
-  .no-swearing {
+  .no-swearing, a .no-swearing {
     display:none;
   }
 }
 .has-no-swearing {
-  .swearing {
+  .swearing, a .swearing {
     display:none;
   }
 }

@@ -1,0 +1,355 @@
+
+!!! 5
+-# Variables for social metadata and analytics
+- title = "Contact - We Make Awesome Sh"
+- description = "Come on, get in touch, right now!"
+- share_image = ""
+- ga_key = "UA-XXXXX-X"
+- url = "http://wmas.it"
+
+- project_image = "/assets/img/jagskills.png"
+- project_title = "Jaguar Skills"
+- project_subtitle = "Browser Game"
+
+
+%html.no-js{ lang: "en" }
+  %head
+    %meta{ charset: "utf-8" }
+
+    %base{ href:"/" }
+
+    -#
+      Use the .htaccess and remove these lines to avoid edge case issues.
+      More info: h5bp.com/i/378
+
+    %meta{ "http-equiv" => "X-UA-Compatible", content: "IE=edge,chrome=1" }
+
+    %title= title
+    %meta{ name: "description", content: description }
+
+    -# Mobile viewport optimized: h5bp.com/viewport
+    %meta{ name: "viewport", content: "width=device-width" }
+
+    -# Google fonts
+    %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Abel" }
+
+    %link{ rel: "stylesheet", href: "/assets/css/style.css" }
+
+    %script{ src: "/assets/js/libs/modernizr-2.5.3.min.js" }
+    %script{ src: "/assets/js/libs/jquery-1.7.1.min.js" }
+    %meta{ name: "og:url", content: url }
+    %meta{ name: "og:title", content: title }
+    %meta{ name: "og:description", content: description }
+    %meta{ name: "og:type", content: "website" }
+    %meta{ name: "og:image", content: share_image }
+    %meta{ name: "og:site_name", content: title }
+
+    %meta{ name: "twitter:card", content: "summary" }
+    %meta{ name: "twitter:url", content: url }
+    %meta{ name: "twitter:title", content: title }
+    %meta{ name: "twitter:description", content: description }
+    %meta{ name: "twitter:image", content: share_image }
+    %meta{ name: "twitter:site", content: "wemakeawesomesh" }
+    %meta{ name: "twitter:creator", content: "wemakeawesomesh" }
+
+
+
+  %body#contact
+    %header#header
+      %nav#main_nav
+        %ul
+          %li
+            %a{ href: "/we", title: ""} We
+          %li
+            %a{ href: "/make", title: ""} Make
+          %li
+            %a{ href: "/awesome", title: ""} Awesome
+          %li
+            %a{ href: "/sh", title: ""} Sh.it
+
+      %nav#categories
+        %ul
+          %li
+            %a.block.toggle-categories{ href: "#"} Show projects by category
+
+      %nav#category_browse
+        %ul
+
+          
+          %li
+            %a.block{ href: "/make/category/3D"} 3D
+          
+          %li
+            %a.block{ href: "/make/category/Arduino"} Arduino
+          
+          %li
+            %a.block{ href: "/make/category/apis"} apis
+          
+          %li
+            %a.block{ href: "/make/category/app"} app
+          
+          %li
+            %a.block{ href: "/make/category/arduino"} arduino
+          
+          %li
+            %a.block{ href: "/make/category/atlantic"} atlantic
+          
+          %li
+            %a.block{ href: "/make/category/awesomewall"} awesomewall
+          
+          %li
+            %a.block{ href: "/make/category/bookmarklet"} bookmarklet
+          
+          %li
+            %a.block{ href: "/make/category/canvas"} canvas
+          
+          %li
+            %a.block{ href: "/make/category/cats"} cats
+          
+          %li
+            %a.block{ href: "/make/category/charity"} charity
+          
+          %li
+            %a.block{ href: "/make/category/chat"} chat
+          
+          %li
+            %a.block{ href: "/make/category/client"} client
+          
+          %li
+            %a.block{ href: "/make/category/columbia"} columbia
+          
+          %li
+            %a.block{ href: "/make/category/css3"} css3
+          
+          %li
+            %a.block{ href: "/make/category/deezer"} deezer
+          
+          %li
+            %a.block{ href: "/make/category/echonest"} echonest
+          
+          %li
+            %a.block{ href: "/make/category/education"} education
+          
+          %li
+            %a.block{ href: "/make/category/emi"} emi
+          
+          %li
+            %a.block{ href: "/make/category/facebook"} facebook
+          
+          %li
+            %a.block{ href: "/make/category/fish"} fish
+          
+          %li
+            %a.block{ href: "/make/category/game"} game
+          
+          %li
+            %a.block{ href: "/make/category/geolocation"} geolocation
+          
+          %li
+            %a.block{ href: "/make/category/hack"} hack
+          
+          %li
+            %a.block{ href: "/make/category/hardware"} hardware
+          
+          %li
+            %a.block{ href: "/make/category/html5"} html5
+          
+          %li
+            %a.block{ href: "/make/category/instagram"} instagram
+          
+          %li
+            %a.block{ href: "/make/category/installation"} installation
+          
+          %li
+            %a.block{ href: "/make/category/intel"} intel
+          
+          %li
+            %a.block{ href: "/make/category/ios"} ios
+          
+          %li
+            %a.block{ href: "/make/category/javascript"} javascript
+          
+          %li
+            %a.block{ href: "/make/category/jquery"} jquery
+          
+          %li
+            %a.block{ href: "/make/category/kfc"} kfc
+          
+          %li
+            %a.block{ href: "/make/category/kinect"} kinect
+          
+          %li
+            %a.block{ href: "/make/category/lastfm"} lastfm
+          
+          %li
+            %a.block{ href: "/make/category/lights"} lights
+          
+          %li
+            %a.block{ href: "/make/category/meme"} meme
+          
+          %li
+            %a.block{ href: "/make/category/microsoft"} microsoft
+          
+          %li
+            %a.block{ href: "/make/category/mindcontrol"} mindcontrol
+          
+          %li
+            %a.block{ href: "/make/category/mobile"} mobile
+          
+          %li
+            %a.block{ href: "/make/category/nyad"} nyad
+          
+          %li
+            %a.block{ href: "/make/category/parlophone"} parlophone
+          
+          %li
+            %a.block{ href: "/make/category/phonegap"} phonegap
+          
+          %li
+            %a.block{ href: "/make/category/pias"} pias
+          
+          %li
+            %a.block{ href: "/make/category/plugin"} plugin
+          
+          %li
+            %a.block{ href: "/make/category/polydor"} polydor
+          
+          %li
+            %a.block{ href: "/make/category/rca"} rca
+          
+          %li
+            %a.block{ href: "/make/category/rdio"} rdio
+          
+          %li
+            %a.block{ href: "/make/category/realtime"} realtime
+          
+          %li
+            %a.block{ href: "/make/category/sms"} sms
+          
+          %li
+            %a.block{ href: "/make/category/sony"} sony
+          
+          %li
+            %a.block{ href: "/make/category/soundcloud"} soundcloud
+          
+          %li
+            %a.block{ href: "/make/category/southbank"} southbank
+          
+          %li
+            %a.block{ href: "/make/category/spotify"} spotify
+          
+          %li
+            %a.block{ href: "/make/category/tomahawk"} tomahawk
+          
+          %li
+            %a.block{ href: "/make/category/tumblr"} tumblr
+          
+          %li
+            %a.block{ href: "/make/category/tv"} tv
+          
+          %li
+            %a.block{ href: "/make/category/twilio"} twilio
+          
+          %li
+            %a.block{ href: "/make/category/twitter"} twitter
+          
+          %li
+            %a.block{ href: "/make/category/universal"} universal
+          
+          %li
+            %a.block{ href: "/make/category/usability"} usability
+          
+          %li
+            %a.block{ href: "/make/category/viral"} viral
+          
+          %li
+            %a.block{ href: "/make/category/virgin"} virgin
+          
+          %li
+            %a.block{ href: "/make/category/virus"} virus
+          
+          %li
+            %a.block{ href: "/make/category/warner"} warner
+          
+          %li
+            %a.block{ href: "/make/category/web"} web
+          
+          %li
+            %a.block{ href: "/make/category/webgl"} webgl
+          
+          %li
+            %a.block{ href: "/make/category/windowsphone"} windowsphone
+          
+          %li
+            %a.block{ href: "/make/category/youtube"} youtube
+          
+    #content
+      %section
+        %h1 Come on,<br/>get in touch,<br/>right now!
+
+
+
+
+        .contact-section
+          %p
+            %span.no-swearing If you don't enjoy swearing, email us here:<br/>
+            %span.swearing If you enjoy swearing, email us here:<br/>
+            %a.contact-method{ href: "mailto:f.ckers@wemakeawesomesh.it"} f<span class='swearing'>u</span><span class='no-swearing'>.</span>ckers@wemakeawesomesh.it
+
+          %p.no-swearing
+            %a.swear-switcher{ data:{swearing:"true"}, href:"#" } Enjoy swearing?
+          %p.swearing
+            %a.swear-switcher{ data:{swearing:"no"}, href:"#" } Don't enjoy swearing?
+
+        .contact-section
+          %p
+            If you enjoy using a telephone, call us:<br/>
+            %a.contact-method{ href: "tel:+442033228619" } +44 20 3322 8619 <span>(UK)</span>
+            %br
+            %a.contact-method{ href: "tel:+19253579627"} +1 925-357-9627 <span>(US)</span>
+
+        .contact-section
+          %p
+            If you extract, bottle and sell cat pheromones, please email your details to:<br/>
+            %a.contact-method{ href: "mailto:lol@wemakeawesomesh.it"} lol@wemakeawesomesh.it
+
+
+
+
+    %footer#footer
+      %nav
+        %ul
+          %li
+            %a{ href: "http://wemakeawesomesh.tumblr.com", title: "Read our Blog"}
+              %span.icon.blog
+              Read our blog
+          %li
+            %a{ href: "http://fb.com/wemakeawesomesh", title: "Like us on facebook"}
+              %span.icon.facebook
+              Like us on Facebook
+          %li
+            %a{ href: "http://twitter.com/wemakeawesomesh", title: "Follow us on Twitter"}
+              %span.icon.twitter
+              Follow us on Twitter
+          %li
+            %a{ href: "/contact", title: "Contact us"}
+              %span.icon.contact
+              Get in touch
+
+
+
+    -#
+    -# scripts concatenated and minified via build script
+    %script{ src: "/assets/js/plugins.js" }
+    %script{ src: "/assets/js/script.js" }
+    -# end scripts
+
+    -#
+      Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+      mathiasbynens.be/notes/async-analytics-snippet
+
+    :javascript
+      var _gaq=[['_setAccount','#{ga_key}'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));

@@ -10,6 +10,7 @@
     <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
     <link href='/assets/css/style.css' rel='stylesheet'>
     <script src='/assets/js/libs/modernizr-2.5.3.min.js'></script>
+    <script src='/assets/js/libs/jquery-1.7.1.min.js'></script>
     <meta content='http://wmas.it' name='og:url'>
     <meta content='Contact - We Make Awesome Sh' name='og:title'>
     <meta content='Come on, get in touch, right now!' name='og:description'>
@@ -264,22 +265,17 @@
     <div id='content'>
       <section>
         <h1>Come on,<br/>get in touch,<br/>right now!</h1>
-        <div class='contact-section swearing'>
+        <div class='contact-section'>
           <p>
-            If you enjoy swearing, email us here:<br/>
-            <a class='contact-method' href='mailto:fuckers@wemakeawesomesh.it'>fuckers@wemakeawesomesh.it</a>
+            <span class='no-swearing'>If you don't enjoy swearing, email us here:<br/></span>
+            <span class='swearing'>If you enjoy swearing, email us here:<br/></span>
+            <a class='contact-method' href='mailto:f.ckers@wemakeawesomesh.it'>f<span class='swearing'>u</span><span class='no-swearing'>.</span>ckers@wemakeawesomesh.it</a>
           </p>
-          <p>
-            <a class='swear-switcher' data-swearing='no' href='#'>Don't enjoy swearing?</a>
-          </p>
-        </div>
-        <div class='contact-section no-swearing'>
-          <p>
-            If you don't enjoy swearing, email us here:<br/>
-            <a class='contact-method' href='mailto:f.ckers@wemakeawesomesh.it'>f.ckers@wemakeawesomesh.it</a>
-          </p>
-          <p>
+          <p class='no-swearing'>
             <a class='swear-switcher' data-swearing='true' href='#'>Enjoy swearing?</a>
+          </p>
+          <p class='swearing'>
+            <a class='swear-switcher' data-swearing='no' href='#'>Don't enjoy swearing?</a>
           </p>
         </div>
         <div class='contact-section'>
@@ -328,7 +324,6 @@
         </ul>
       </nav>
     </footer>
-    <script src='/assets/js/libs/jquery-1.7.1.min.js'></script>
     <script src='/assets/js/plugins.js'></script>
     <script src='/assets/js/script.js'></script>
     <script>

@@ -11,15 +11,22 @@
     }
     .image {
       width:100%;
-      height:240px;
       background-position: center center;
       background-size:cover;
     }
+    .stretch {
+      padding-top:60%;
+    }
   }
+}
+
+.clients li {
+  width:12.5%;
 }
 
 @media(max-width:1000px) {
   .principles li {
     width:100%;
   }
+
 }

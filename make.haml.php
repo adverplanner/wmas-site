@@ -6,7 +6,11 @@ require_once("_partials/header.php");
 ?>
 
       %section
-        %h1 Make
+        %h1 Make <span>(It's What We Do)</span>
+
+        %p Think of any social media platform or piece of digital technology. Chances are we've already made something awesome with it. Because that's what we do. We Make Awesome Sh.
+        %p Mobile, web, outdoor, interactive, hardware. Hell, we've even hacked a fish. Literally.
+        %p Here are some examples of the awesome work we've made:
 
         %ul.grid.case-studies.clearfix
           <?php

@@ -7,21 +7,19 @@ require_once("_partials/header.php");
       %section
         %h1 Come on,<br/>get in touch,<br/>right now!
 
-        .contact-section.swearing
-          %p
-            If you enjoy swearing, email us here:<br/>
-            %a.contact-method{ href: "mailto:fuckers@wemakeawesomesh.it"} fuckers@wemakeawesomesh.it
 
-          %p
-            %a.swear-switcher{ data:{swearing:"no"}, href:"#" } Don't enjoy swearing?
 
-        .contact-section.no-swearing
-          %p
-            If you don't enjoy swearing, email us here:<br/>
-            %a.contact-method{ href: "mailto:f.ckers@wemakeawesomesh.it"} f.ckers@wemakeawesomesh.it
 
+        .contact-section
           %p
+            %span.no-swearing If you don't enjoy swearing, email us here:<br/>
+            %span.swearing If you enjoy swearing, email us here:<br/>
+            %a.contact-method{ href: "mailto:f.ckers@wemakeawesomesh.it"} f<span class='swearing'>u</span><span class='no-swearing'>.</span>ckers@wemakeawesomesh.it
+
+          %p.no-swearing
             %a.swear-switcher{ data:{swearing:"true"}, href:"#" } Enjoy swearing?
+          %p.swearing
+            %a.swear-switcher{ data:{swearing:"no"}, href:"#" } Don't enjoy swearing?
 
         .contact-section
           %p

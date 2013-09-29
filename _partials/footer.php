@@ -16,14 +16,13 @@
               %span.icon.twitter
               Follow us on Twitter
           %li
-            %a{ href: "/contact", title: "Contact us"}
+            %a{ href: "<?=$base_url;?>contact", title: "Contact us"}
               %span.icon.contact
               Get in touch
 
 
 
     -#
-    %script{ src: "<?=$base_url;?>assets/js/libs/jquery-1.7.1.min.js" }
     -# scripts concatenated and minified via build script
     %script{ src: "<?=$base_url;?>assets/js/plugins.js" }
     %script{ src: "<?=$base_url;?>assets/js/script.js" }

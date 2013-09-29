@@ -13,13 +13,16 @@ require_once("_partials/header.php");
 
         %ul.principles
           %li
-            %img{ src: "<?=$base_url;?>assets/img/playground.gif"}
+            .image{ style: "background-image:url(<?=$base_url;?>assets/img/playground.gif)"}
+              .stretch
             %p The digital world is there to be played with. The web is our playground. APIs and code are our swings.
           %li
-            %img{ src: "<?=$base_url;?>assets/img/specialists.gif"}
+            .image{ style: "background-image:url(<?=$base_url;?>assets/img/specialists.gif)"}
+              .stretch
             %p We're not a traditional agency. So we won't ever behave like one. We’re an agile collective of specialists. Honest. Hard working. And driven by delivering you awesome sh.
           %li
-            %img{ src: "<?=$base_url;?>assets/img/feel_awesome.gif"}
+            .image{ style: "background-image:url(<?=$base_url;?>assets/img/feel_awesome.gif)"}
+              .stretch
             %p We do it because we enjoy it. Making clients look awesome makes us feel awesome.
 
         %p We’ve also worked with some awesome people:

@@ -1,12 +1,12 @@
 {
-  "calvin-harris-18-months-mobile-app": {
-    "image": "jagskills.png",
-    "title": "Calvin Harris",
-    "subtitle": "18 Months App"
-  },
-  "calvin-harris-18-months-mobile-app-2": {
+  "jaguar-skills-cross-platform-game": {
     "image": "jagskills.png",
     "title": "Jaguar Skills",
-    "subtitle": "Cross Browser Game"
+    "subtitle": "Cross Platform Game"
+  },
+  "calvin-harris-18-months-mobile-app": {
+    "image": "calvinharris.png",
+    "title": "Calvin Harris",
+    "subtitle": "18 Months App"
   }
 }

@@ -10,7 +10,7 @@ def output_php(infile)
   %x[php #{infile} > #{outfile}]
   puts "Compile #{infile} => #{outfile}..."
   compile_haml(outfile.to_s)
-  %x[rm -rf #{outfile}]
+  # %x[rm -rf #{outfile}]
 end
 
 def compile_scss(infile)

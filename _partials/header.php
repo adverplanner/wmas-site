@@ -1,5 +1,5 @@
 <?php $base_url = "/"; ?>
-<?php //$base_url = "/new_site/";
+<?php // $base_url = "/new_site/";
 ?>
 
 <?php require_once('includes/tools.php');?>
@@ -40,7 +40,7 @@
     %link{ rel: "stylesheet", href: "<?=$base_url;?>assets/css/style.css" }
 
     %script{ src: "<?=$base_url;?>assets/js/libs/modernizr-2.5.3.min.js" }
-
+    %script{ src: "<?=$base_url;?>assets/js/libs/jquery-1.7.1.min.js" }
     %meta{ name: "og:url", content: url }
     %meta{ name: "og:title", content: title }
     %meta{ name: "og:description", content: description }

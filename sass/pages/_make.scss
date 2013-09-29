@@ -1,5 +1,13 @@
 
 
+
+#we #header:before {
+  background-image:url(../img/masterchief.jpg);
+}
+
+
+
+
 li.case-study {
   display:block;
   float:left;
@@ -8,9 +16,7 @@ li.case-study {
   box-sizing: border-box;
   width:33.333333333%;
   min-width:120px;
-  background:#1a1a1a;
   position: relative;
-  border:1px solid #fff;
   overflow:hidden;
   &:nth-child(n+4) {
     width:25%;
@@ -27,18 +33,13 @@ li.case-study {
     left:0;
     right:0;
     padding:$padding / 2;
-    color:#fff;
     padding-top:$padding;
     -webkit-transition:500ms background;
+    transition:500ms background;
     //@include filter-gradient(#000000, #333333, vertical); // IE6-9
-    @include background-image(linear-gradient(bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 60%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%));
   }
 
-  &:hover {
-    .info {
-      @include background-image(linear-gradient(bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.85) 60%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0) 100%));
-    }
-  }
+
 
   .title, .subtitle {
     padding:0;
@@ -61,6 +62,8 @@ li.case-study {
     }
   }
 }
+
+
 
 @media(max-width:950px) {
   .grid li.case-study {
