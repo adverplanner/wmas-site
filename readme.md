@@ -4,6 +4,8 @@ $ gem install watchr
 $ gem install compass
 $ gem install haml
 
+Also make sure you have [Imageoptim](http://imageoptim.com/) installed
+
 # Building while developing
 
 $ compass watch

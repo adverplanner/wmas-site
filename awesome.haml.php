@@ -33,7 +33,7 @@ require_once("_partials/header.php");
 
           %li.client
             %a.image{ href: "<?=$base_url;?>make/category/<?= $client; ?>"}
-            .img{ style: "background-image:url(<?=$base_url;?>assets/img/clients/<?= $client;?>.png)"}
+            .img{ style: "background-image:url(<?=$base_url;?>assets/img/clients/<?= $client;?>.jpg)"}
 
           <?php } ?>
 

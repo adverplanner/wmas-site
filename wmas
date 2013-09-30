@@ -33,8 +33,7 @@ foreach($menu as $key => $val) {
 
 require_once('includes/tools.php');
 function get_input() {
-  $handle = fopen ("php://stdin","r");
-  return trim(fgets($handle));
+  return trim(fgets(fopen ("php://stdin","r")));
 }
 function echo_line($str, $foreground = "light_gray", $background = "black") {
   $colors = new Colors();
@@ -102,7 +101,12 @@ class Colors {
     }
   }
 function ascii_art($file) {
-  $img = imagecreatefromstring(file_get_contents($file));
+  if (!file_exists($file)) return;
+  try {
+    $img = imagecreatefromstring(file_get_contents($file));
+  } catch (Exception $e) {
+    return;
+  }
   list($width, $height) = getimagesize($file);
 
   $scale = 10;
@@ -116,17 +120,20 @@ function ascii_art($file) {
   $chars = array_reverse($chars);
 
   $c_count = count($chars);
-
-  for($y = 0; $y <= $height - $scale - 1; $y += $scale) {
-    for($x = 0; $x <= $width - ($scale / 2) - 1; $x += ($scale / 2)) {
-      $rgb = imagecolorat($img, $x, $y);
-      $r = (($rgb >> 16) & 0xFF);
-      $g = (($rgb >> 8) & 0xFF);
-      $b = ($rgb & 0xFF);
-      $sat = ($r + $g + $b) / (255 * 3);
-      echo $chars[ (int)( $sat * ($c_count - 1) ) ];
+  if ($width) {
+    for($y = 0; $y < 15; $y++) {
+      for($x = 0; $x < 30; $x++) {
+        $dw = $width / 30;
+        $dh = $height / 15;
+        $rgb = imagecolorat($img, $x * $dw, $y*$dh);
+        $r = (($rgb >> 16) & 0xFF);
+        $g = (($rgb >> 8) & 0xFF);
+        $b = ($rgb & 0xFF);
+        $sat = ($r + $g + $b) / (255 * 3);
+        echo $chars[ (int)( $sat * ($c_count - 1) ) ];
+      }
+      echo PHP_EOL;
     }
-    echo PHP_EOL;
   }
 }
 
@@ -137,7 +144,7 @@ echo_line("What would you like to do?", "light_red", null);
 
 function display_column($str, $count, $foreground = null, $background = null) {
   $colors = new Colors();
-  $line_width = 100;
+  $line_width = 150;
   $col_padding = 4;
   $char_length = $line_width / $count;
   $max_char_length = $char_length - $col_padding;
@@ -181,6 +188,12 @@ function respond($response) {
   global $shortcuts;
   switch($response) {
     case "1":
+      $people = get_content("people");
+      foreach($people as $person) {
+        echo_line($person->name." (@".$person->handle.")", "light_gray");
+        ascii_art("build/assets/img/avatars/".$person->image);
+        echo "\n";
+      }
       echo "\n".file_get_contents("content/we.md")."\n";
       break;
     case "2":
@@ -197,13 +210,13 @@ function respond($response) {
       echo echo_line( "Which project: (e.g. 1) ", "light_red", null);
       while (true) {
         $option = get_input();
-        if (trim($option) === "" || !isset($projects->$slugs[$option])) {
+        if (trim($option) === "" || !isset($projects->$slugs[$option-1])) {
           echo echo_line("ERROR: $option is not valid", "black", "red");
           echo echo_line("You need to enter an available option", "black", "red");
         } else break;
       }
 
-      $project = get_project($slugs[$option]);
+      $project = get_project($slugs[$option-1]);
       echo_line($project->title);
       if ($project->subtitle)
         echo_line($project->subtitle);
@@ -213,8 +226,8 @@ function respond($response) {
         echo_line($project->url);
         echo_line("");
       }
-      echo_line("Display image here");
-      ascii_art("build/assets/img/".$project->image);
+      if (file_exists("build/assets/img/".$project->image))
+        ascii_art("build/assets/img/".$project->image);
       if (file_exists("content/projects/".$slugs[$option].".md"))
         echo "\n".file_get_contents("content/projects/".$slugs[$option].".md")."\n";
       else

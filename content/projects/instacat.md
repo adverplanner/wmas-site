@@ -1,0 +1,5 @@
+Instac.at. Oh, instac.at. This project was how it all began. Most people thought Instagram releasing their API would result in a flurry of marketing innovation. They were wrong. The first website to use the Instagram API was Instac.at - a website that simply pulled in images of cats being uploaded in real time to Instagram, alongside an easter egg that may or may not have been illegally ripped from the epic film “Super Troopers”.
+
+A few months later, and the swell of buzz and tweets about Instacat would not only have increased Tom and Syd’s twitter follower ratio by a very healthy percentage, but would also result in the birth of Search Instagram… which went on to spawn everything else you’ve seen on this site.
+
+We’ll leave you with this little gem to have a look at right meow. [http://www.youtube.com/watch?v=mXPeLctgvQI](http://www.youtube.com/watch?v=mXPeLctgvQI)

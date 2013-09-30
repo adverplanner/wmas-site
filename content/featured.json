@@ -1,12 +1,47 @@
 {
   "jaguar-skills-cross-platform-game": {
-    "image": "jagskills.png",
+    "image": "jagskills.jpg",
     "title": "Jaguar Skills",
     "subtitle": "Cross Platform Game"
   },
   "calvin-harris-18-months-mobile-app": {
-    "image": "calvinharris.png",
+    "image": "calvinharris.jpg",
     "title": "Calvin Harris",
     "subtitle": "18 Months App"
+  },
+  "search-instagram": {
+    "image": "search-instagram.jpg",
+    "title": "Search Instagram",
+    "subtitle": "Online Search Engine"
+  },
+  "modestep-social-virus": {
+    "image": "modestep.jpg",
+    "title": "Modestep.",
+    "subtitle": "Social Takeover Virus"
+  },
+  "harlem-shake-roulette": {
+    "image": "harlemshake.jpg",
+    "title": "Harlem Shake Roulette",
+    "subtitle": "Viral video roulette"
+  },
+  "awesomewall": {
+    "image": "awesomewall.jpg",
+    "title": "Awesomewall",
+    "subtitle": "Social content aggregator"
+  },
+  "wake-up-meow-meow": {
+    "image": "wake-up-meow-meow.jpg",
+    "title": "Wake up Meow Meow",
+    "subtitle": "Outdoor installation"
+  },
+  "kylie-minogue-tweet-to-unlock": {
+    "image": "kylie.jpg",
+    "title": "Modestep.",
+    "subtitle": "Social Takeover Virus"
+  },
+  "now-running": {
+    "image": "nowrunning.jpg",
+    "title": "Now Running.",
+    "subtitle": "Mobile app"
   }
 }

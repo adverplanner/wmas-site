@@ -1,21 +1,21 @@
 [{
   "name": "Tom",
   "handle": "adverplanner",
-  "image": "adverplanner.png"
+  "image": "adverplanner.jpg"
 },{
   "name": "Syd",
   "handle": "sydlawrence",
-  "image": "sydlawrence.png"
+  "image": "sydlawrence.jpg"
 },{
   "name": "Paul",
   "handle": "nrocy",
-  "image": "nrocy.png"
+  "image": "nrocy.jpg"
 },{
   "name": "Adz",
   "handle": "skattyadz",
-  "image": "skattyadz.png"
+  "image": "skattyadz.jpg"
 },{
   "name": "Rob",
   "handle": "robhampson",
-  "image": "robhampson.png"
+  "image": "robhampson.jpg"
 }]

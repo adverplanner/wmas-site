@@ -1,0 +1,4 @@
+After having lots of requests from various clients for a social content aggregator, we decided to create a new and more awesome version of Search Instagram. AwesomeWall is a product that grabs images and videos from a range of social networks and displays them in a feed, right where you want them. It’s got moderation. It can be used on desktop, mobile, iFrames for social pages and even massive screens at gigs and events.
+
+## Results:
+- AwesomeWall has been used by a huge range of clients including Nike, Intel, The Rolling Stones, Adidas, MTV, Kylie Minogue, Olivier Awards, Swedish House Mafia, Nando’s, New York Mayor’s Office, Alice in Chains, Ministry of Sound, Blur, Paramore and, if you’re heading to any of Madonna’s concerts this year, you’ll see it there too.

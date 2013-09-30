@@ -13,8 +13,6 @@ foreach ($dir as $folder) {
 }
 
 
-exec("mkdir build/content/make");
-
 require_once("includes/tools.php");
 
 function build_project($slug) {
@@ -32,4 +30,13 @@ function build_project($slug) {
 foreach (get_content("projects") as $slug => $project) {
     build_project($slug);
 }
+
+echo "Compressing images\n";
+exec("/Applications/ImageOptim.app/Contents/MacOS/ImageOptim build/assets/img/avatars/*");
+exec("/Applications/ImageOptim.app/Contents/MacOS/ImageOptim build/assets/img/awards/*");
+exec("/Applications/ImageOptim.app/Contents/MacOS/ImageOptim build/assets/img/clients/*");
+exec("/Applications/ImageOptim.app/Contents/MacOS/ImageOptim build/assets/img/featured/*");
+exec("/Applications/ImageOptim.app/Contents/MacOS/ImageOptim build/assets/img/press/*");
+exec("/Applications/ImageOptim.app/Contents/MacOS/ImageOptim build/assets/img/projects/*");
+echo "Build script complete!\n";
 

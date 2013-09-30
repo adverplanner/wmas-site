@@ -1,1 +1,1 @@
-A Search Instagram site with facial recognition to render mos on faces.
+Because Search Instagram gets between 5,000 – 40,000 visits a day, we thought  it would make sense to make a more charitable and meaningful impression on these, err, impressions. So using some sexy facial recognition software we auto added moustache’s onto any face that appeared on Search Instagram, alongside a clear link to donate to Movember. Sometimes, the small things can make a big difference. Especially as Tom, even at the grand old age of 28, is still incapable of growing facial hair.
