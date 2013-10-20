@@ -14,33 +14,23 @@
     "title": "Search Instagram",
     "subtitle": "Online Search Engine"
   },
-  "modestep-social-virus": {
-    "image": "modestep.jpg",
-    "title": "Modestep.",
-    "subtitle": "Social Takeover Virus"
-  },
   "harlem-shake-roulette": {
     "image": "harlemshake.jpg",
     "title": "Harlem Shake Roulette",
     "subtitle": "Viral video roulette"
   },
-  "awesomewall": {
-    "image": "awesomewall.jpg",
-    "title": "Awesomewall",
-    "subtitle": "Social content aggregator"
-  },
   "wake-up-meow-meow": {
     "image": "wake-up-meow-meow.jpg",
-    "title": "Wake up Meow Meow",
+    "title": "Wake up<br/>Meow Meow",
     "subtitle": "Outdoor installation"
   },
   "kylie-minogue-tweet-to-unlock": {
     "image": "kylie.jpg",
-    "title": "Modestep.",
-    "subtitle": "Social Takeover Virus"
+    "title": "Kylie Timebomb",
+    "subtitle": "Tweet to Unlock"
   },
   "now-running": {
-    "image": "nowrunning.jpg",
+    "image": "now-running.jpg",
     "title": "Now Running.",
     "subtitle": "Mobile app"
   }

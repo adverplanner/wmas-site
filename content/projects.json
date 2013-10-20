@@ -1,37 +1,6 @@
 {
-  "now-running": {
-    "title": "Now Running",
-    "subtitle": "mobile app",
-    "tags": "mobile app ios",
-    "link": "http://www.youtube.com/watch?v=zedmWZMk3rA",
-    "date": "01-05-2013",
-    "image": "projects\/now-running.png"
-  },
-  "vine-vs-instagram": {
-    "title": "Vine VS Instagram",
-    "subtitle": "With a giant hand",
-    "tags": "vine instagram viral",
-    "link": "http:\/\/vinevsinstagram.com",
-    "date": "14-02-2013",
-    "image": "projects\/vine-vs-instagram.png"
-  },
-  "awesomewall": {
-    "title": "AwesomeWall",
-    "subtitle": "Social content aggregator",
-    "tags": "photo instagram mobile web app vine video",
-    "link": "http:\/\/awesomewall.wemakeawesomesh.it",
-    "date": "01-07-2013",
-    "image": "projects\/awesomewall.png"
-  },
-  "rolling-stones-geofenced-mobile-web-album-stream": {
-    "title": "Rolling Stones Grrr",
-    "subtitle": "Geofenced Album Stream",
-    "tags": "geolocation mobile music polydor universal",
-    "link": "http:\/\/wemakeawesomesh.tumblr.com\/post\/62406963392\/discovering-distance-to-a-location-using-javascript",
-    "date": "12th December 2012",
-    "image": "projects\/rolling-stones-geofenced-mobile-web-album-stream.png"
-  },
-  "calvin-harris-18-months-mobile-app": {
+
+   "calvin-harris-18-months-mobile-app": {
     "tags": "mobile phonegap html5 sony columbia app",
     "link": "http:\/\/creativesandbox.com\/case-study\/columbia-records-calvin-harris-18-months",
     "title": "Calvin Harris",
@@ -39,6 +8,47 @@
     "image": "projects\/calvin.jpg",
     "date": "2 November 2012 12:00:00 +0100"
   },
+  "samsung-shoreditch-studios": {
+    "title": "Shoreditch Studios",
+    "subtitle": "NFC app",
+    "tags": "mobile nfc music web android",
+    "link": "http:\/\/www.music-news.com\/shownews.asp?nItemID=71253",
+    "date": "14-10-2013",
+    "image": "projects\/samsung-shoreditch-studios.png"
+  },
+  "now-running": {
+    "title": "Now Running",
+    "subtitle": "mobile app",
+    "tags": "mobile app ios",
+    "link": "http:\/\/www.youtube.com\/watch?v=zedmWZMk3rA",
+    "date": "01-05-2013",
+    "image": "projects\/now-running.jpg"
+  },
+  "awesomewall": {
+    "title": "AwesomeWall",
+    "subtitle": "Social content aggregator",
+    "tags": "photo instagram mobile web app vine video",
+    "link": "http:\/\/awesomewall.wemakeawesomesh.it",
+    "date": "01-07-2013",
+    "image": "projects\/awesomewall.jpg"
+  },
+  "vine-vs-instagram": {
+    "title": "Vine VS Instagram",
+    "subtitle": "With a giant hand",
+    "tags": "vine instagram viral",
+    "link": "http:\/\/vinevsinstagram.com",
+    "date": "14-02-2013",
+    "image": "projects\/vine-vs-instagram.jpg"
+  },
+  "rolling-stones-geofenced-mobile-web-album-stream": {
+    "title": "Rolling Stones Grrr",
+    "subtitle": "Geofenced Album Stream",
+    "tags": "geolocation mobile music polydor universal",
+    "link": "http:\/\/wemakeawesomesh.tumblr.com\/post\/62406963392\/discovering-distance-to-a-location-using-javascript",
+    "date": "12th December 2012",
+    "image": "projects\/rolling-stones-geofenced-mobile-web-album-stream.jpg"
+  },
+
   "intel-photo-wall": {
     "title": "Intel",
     "subtitle": "Photo Wall",
@@ -53,6 +63,21 @@
     "tags": "web virus facebook twitter",
     "image": "projects\/modestep.jpg",
     "date": "19 February 2012 12:00:00 +0100"
+  },
+  "kylie-minogue-tweet-to-unlock": {
+    "title": "Kylie Minogue",
+    "subtitle": "Tweet To Unnlock",
+    "link": "http:\/\/blog.midem.com\/2012\/05\/syd-lawrence-how-to-launch-kylies-new-single-with-25000-tweets\/",
+    "tags": "client web twitter emi parlophone realtime",
+    "image": "projects\/kylie.jpg",
+    "date": "25 May 2012 12:00:00 +0100"
+  },
+  "wake-up-meow-meow": {
+    "title": "Wake Up Meow Meow",
+    "link": "http:\/\/www.youtube.com\/watch?v=5krk2SXfZM0&hd=1",
+    "tags": "client installation southbank sms twilio realtime html5",
+    "image": "projects\/meowmeow.jpg",
+    "date": "23 December 2012 12:00:00 +0100"
   },
   "global-heroes-end-of-polio": {
     "tags": "web html5 facebook charity",
@@ -77,21 +102,7 @@
     "title": "Harlem Shake Roulette",
     "date": "15 February 2012 12:00:00 +0100"
   },
-  "kylie-minogue-tweet-to-unlock": {
-    "title": "Kylie Minogue",
-    "subtitle": "Tweet To Unnlock",
-    "link": "http:\/\/blog.midem.com\/2012\/05\/syd-lawrence-how-to-launch-kylies-new-single-with-25000-tweets\/",
-    "tags": "client web twitter emi parlophone realtime",
-    "image": "projects\/kylie.jpg",
-    "date": "25 May 2012 12:00:00 +0100"
-  },
-  "wake-up-meow-meow": {
-    "title": "Wake Up Meow Meow",
-    "link": "http:\/\/www.youtube.com\/watch?v=5krk2SXfZM0&hd=1",
-    "tags": "client installation southbank sms twilio realtime html5",
-    "image": "projects\/meowmeow.jpg",
-    "date": "23 December 2012 12:00:00 +0100"
-  },
+
   "nyan-cat-city": {
     "tags": "hack client html5 installation cats awesomewall instagram twitter tumblr nyad",
     "link": "http:\/\/www.nyancatcity.com",

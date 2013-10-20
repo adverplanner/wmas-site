@@ -1,4 +1,10 @@
 #single_project {
+  li {
+    list-style:disc;
+    list-style-position:inside;
+    margin-bottom:0.5em;
+  }
+
   #title_section, #image_section {
     width:50%;
     display:block;
@@ -39,14 +45,7 @@
       -webkit-transition:all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
       transition:all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
     }
-    &:hover {
-      .img {
-        top:-$padding*5;
-        left:-$padding*5;
-        right:-$padding*5;
-        bottom:-$padding*5;
-      }
-    }
+
   }
   .tags {
     display:block;
